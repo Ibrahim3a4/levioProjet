@@ -16,3 +16,21 @@ C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Delta
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.dll
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.pdb
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.xml
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.xml
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
+C:\wamp64\www\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb

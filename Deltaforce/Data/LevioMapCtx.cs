@@ -31,6 +31,7 @@ namespace Data
         public DbSet<RecruitmentManager> RecruitmentManager { get; set; }
         public DbSet<Applicant> Applicant { get; set; }
 
+        public DbSet <Message> Message { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
