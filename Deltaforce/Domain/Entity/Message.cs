@@ -18,6 +18,7 @@ namespace Domain.Entity
         //public int SenderId { get; set; }
         //[ForeignKey("SenderId")]
         //public User User { get; set; }
+
         public string Sender{ get; set; }
         public string Receiver { get; set; }
     
