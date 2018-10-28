@@ -19,7 +19,7 @@ namespace Domain.Entity
 
         public int NbResInServ { get; set; }
         public int NbProjAf { get; set; }
-        ICollection<Project> Projects { get; set; }
+        public virtual ICollection<Project> Projects { get; set; }
 
     }
 }
