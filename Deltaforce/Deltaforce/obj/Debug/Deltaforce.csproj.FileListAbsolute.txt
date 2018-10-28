@@ -16,3 +16,6 @@ C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Delta
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
