@@ -40,3 +40,18 @@ C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\En
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 >>>>>>> d2d01cf88adbda15332bee3e454b7af30c50d991
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.xml
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache

@@ -10,16 +10,16 @@ namespace Domain.Entity
     class Project
     {
         [Key]
-        public int project_id { get; set; }
-        public String name { get; set; }
-        public DateTime startDate { get; set; }
-        public DateTime endDate { get; set; }
-        public String address { get; set; }
-        public ProjectType type { get; set; }
-        public int totalNbrRessources { get; set; }
-        public int totalNbrLevio { get; set; }
-        public String image { get; set; }
-        public Client c { get; set; }
+        public int Project_id { get; set; }
+        public String Name { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public String Address { get; set; }
+        public ProjectType Type { get; set; }
+        public int TotalNbrRessources { get; set; }
+        public int TotalNbrLevio { get; set; }
+        public String Image { get; set; }
+        
 
         
 

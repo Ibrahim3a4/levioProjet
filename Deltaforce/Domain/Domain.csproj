@@ -56,11 +56,13 @@
     <Compile Include="Entity\Client.cs" />
     <Compile Include="Entity\ClientCategory.cs" />
     <Compile Include="Entity\ClientType.cs" />
+    <Compile Include="Entity\Message.cs" />
+    <Compile Include="Entity\MessageType.cs" />
+    <Compile Include="Entity\ProjectType.cs" />
     <Compile Include="Entity\ContractType.cs" />
     <Compile Include="Entity\DayOff.cs" />
     <Compile Include="Entity\Holiday.cs" />
-    <Compile Include="Entity\Message.cs" />
-    <Compile Include="Entity\MessageType.cs" />
+    <Compile Include="Entity\Project.cs" />
     <Compile Include="Entity\RecruitmentManager.cs" />
     <Compile Include="Entity\Resource.cs" />
     <Compile Include="Entity\Skill.cs" />
