@@ -8,8 +8,8 @@ namespace Domain.Entity
 {
     public class DayOff
     {
-        public DateTime DayoffId { get; set; }
-        public DateTime StartDate { get; set; }
+        public int DayoffId { get; set; }
+        public DateTime DDate { get; set; }
 
         public String Reason { get; set; }
 
