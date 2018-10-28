@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201810271219059_FirstOne.Designer.cs">
       <DependentUpon>201810271219059_FirstOne.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810272159339_Messagemimi.cs" />
+    <Compile Include="Migrations\201810272159339_Messagemimi.Designer.cs">
+      <DependentUpon>201810272159339_Messagemimi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -77,6 +81,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201810271219059_FirstOne.resx">
       <DependentUpon>201810271219059_FirstOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810272159339_Messagemimi.resx">
+      <DependentUpon>201810272159339_Messagemimi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

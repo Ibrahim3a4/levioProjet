@@ -16,6 +16,27 @@ C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Delta
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+<<<<<<< HEAD
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+=======
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\ServicePattern.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\Service.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
+>>>>>>> d2d01cf88adbda15332bee3e454b7af30c50d991
