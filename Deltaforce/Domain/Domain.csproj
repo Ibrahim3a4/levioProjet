@@ -56,6 +56,9 @@
     <Compile Include="Entity\Client.cs" />
     <Compile Include="Entity\ClientCategory.cs" />
     <Compile Include="Entity\ClientType.cs" />
+    <Compile Include="Entity\InterMandate.cs" />
+    <Compile Include="Entity\Mandate.cs" />
+    <Compile Include="Entity\MandateHistory.cs" />
     <Compile Include="Entity\Message.cs" />
     <Compile Include="Entity\MessageType.cs" />
     <Compile Include="Entity\ProjectType.cs" />

@@ -33,7 +33,9 @@ namespace Data
 
         public DbSet<Message> Message  { get; set; }
         public DbSet<Project> project { get; set; }
-
+        public DbSet<Mandate> Mandat { get; set; }
+        public DbSet<InterMandate> InterMandat { get; set; }
+        public DbSet<MandateHistory> MandatHistory { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

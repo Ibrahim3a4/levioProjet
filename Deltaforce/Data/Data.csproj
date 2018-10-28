@@ -57,9 +57,9 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201810281246145_lastone.cs" />
-    <Compile Include="Migrations\201810281246145_lastone.Designer.cs">
-      <DependentUpon>201810281246145_lastone.cs</DependentUpon>
+    <Compile Include="Migrations\201810281316567_lastOne.cs" />
+    <Compile Include="Migrations\201810281316567_lastOne.Designer.cs">
+      <DependentUpon>201810281316567_lastOne.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,8 +75,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201810281246145_lastone.resx">
-      <DependentUpon>201810281246145_lastone.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810281316567_lastOne.resx">
+      <DependentUpon>201810281316567_lastOne.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
