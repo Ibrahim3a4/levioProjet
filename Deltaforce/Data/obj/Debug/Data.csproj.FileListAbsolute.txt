@@ -27,12 +27,6 @@ C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.csp
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Messagemimi.resources
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.FirstOne.resources
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Messagemimi.resources
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
-C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
@@ -42,3 +36,8 @@ C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramew
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.lastone.resources
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache

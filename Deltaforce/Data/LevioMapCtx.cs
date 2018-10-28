@@ -32,6 +32,7 @@ namespace Data
         public DbSet<Applicant> Applicant { get; set; }
 
         public DbSet<Message> Message  { get; set; }
+        public DbSet<Project> project { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
