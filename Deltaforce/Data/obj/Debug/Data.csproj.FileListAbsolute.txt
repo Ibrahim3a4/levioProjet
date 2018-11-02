@@ -41,3 +41,21 @@ C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.lastOne.resources
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.please.resources
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
