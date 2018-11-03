@@ -57,5 +57,6 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
-C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.please.resources
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Second.resources
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Third.resources

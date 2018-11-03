@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,14 @@ namespace Domain.Entity
         public int IdMandateHistory { get; set; }
         [ForeignKey("IdMandateHistory")]
         public MandateHistory MandateHistory { get; set; }
+
+        [Key]
+        [Column(Order = 1)]
         public int IdResource { get; set; }
         [ForeignKey("IdResource")]
         public Resource Resource { get; set; }
+        [Key]
+        [Column(Order =2)]
         public int IdProject { get; set; }
         [ForeignKey("IdProject")]
         public Project Project { get; set; }

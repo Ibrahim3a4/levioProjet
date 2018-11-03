@@ -66,9 +66,13 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201811021351473_please.cs" />
-    <Compile Include="Migrations\201811021351473_please.Designer.cs">
-      <DependentUpon>201811021351473_please.cs</DependentUpon>
+    <Compile Include="Migrations\201811031954573_Second.cs" />
+    <Compile Include="Migrations\201811031954573_Second.Designer.cs">
+      <DependentUpon>201811031954573_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811032309157_Third.cs" />
+    <Compile Include="Migrations\201811032309157_Third.Designer.cs">
+      <DependentUpon>201811032309157_Third.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,8 +88,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811021351473_please.resx">
-      <DependentUpon>201811021351473_please.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811031954573_Second.resx">
+      <DependentUpon>201811031954573_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811032309157_Third.resx">
+      <DependentUpon>201811032309157_Third.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

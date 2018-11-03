@@ -20,3 +20,4 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\bin\Deb
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.dll
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
