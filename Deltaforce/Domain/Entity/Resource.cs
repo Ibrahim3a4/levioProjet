@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,5 +27,9 @@ namespace Domain.Entity
 
         public virtual ICollection<Holiday> Holidays  { get; set; }
 
+        public virtual ICollection<Mandate> Mandates { get; set; }
+        public int InterMandateId { get; set; }
+        [ForeignKey("InterMandateId")]
+        public InterMandate InterMandate { get; set; }
     }
 }

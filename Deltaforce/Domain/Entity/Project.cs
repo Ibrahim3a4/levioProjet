@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,10 @@ namespace Domain.Entity
         public int TotalNbrRessources { get; set; }
         public int TotalNbrLevio { get; set; }
         public String Image { get; set; }
-        
+        public virtual ICollection<Mandate> Mandates { get; set; }
 
-        
+
+
 
 
     }
