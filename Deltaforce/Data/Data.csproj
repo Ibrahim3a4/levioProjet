@@ -74,6 +74,10 @@
     <Compile Include="Migrations\201811032309157_Third.Designer.cs">
       <DependentUpon>201811032309157_Third.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811051810062_HopeRole.cs" />
+    <Compile Include="Migrations\201811051810062_HopeRole.Designer.cs">
+      <DependentUpon>201811051810062_HopeRole.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811032309157_Third.resx">
       <DependentUpon>201811032309157_Third.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811051810062_HopeRole.resx">
+      <DependentUpon>201811051810062_HopeRole.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

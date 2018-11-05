@@ -60,3 +60,4 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Second.resources
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Third.resources
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.HopeRole.resources

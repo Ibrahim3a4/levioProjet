@@ -376,3 +376,4 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\MapWeb\bin\Mic
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\MapWeb\obj\Debug\MapWeb.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\MapWeb\obj\Debug\MapWeb.dll
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\MapWeb\obj\Debug\MapWeb.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\MapWeb\bin\Views\Skill\Create.cshtml
