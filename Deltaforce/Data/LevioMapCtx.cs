@@ -24,13 +24,14 @@ namespace Data
         }
 
         //Constructeur 
-        public LevioMapCtx (): base("Name=TestIdentity")
+        public LevioMapCtx (): base("Name=MapLevio")
         {
            
         }
 
 
         public DbSet<Client> Client { get; set; }
+        public DbSet<SkillResource> SkillResource { get; set; }
 
         public DbSet<DayOff> DayOff { get; set; }
         public DbSet<Holiday> Holiday { get; set; }
@@ -52,7 +53,13 @@ namespace Data
         {
             //pour enlever des conventions
             // modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
-            
+
+            //modelBuilder.Entity<ApplicationUser>().ToTable("MyUsers");
+            //modelBuilder.Entity<CustomUserRole>().ToTable("MyUserRoles");
+            //modelBuilder.Entity<CustomUserLogin>().ToTable("MyUserLogins");
+            //modelBuilder.Entity<CustomUserClaim>().ToTable("MyUserClaims");
+            //modelBuilder.Entity<CustomRole>().ToTable("MyRoles");
+
 
         }
 

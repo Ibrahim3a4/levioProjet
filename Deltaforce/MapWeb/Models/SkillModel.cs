@@ -8,6 +8,6 @@ namespace MapWeb.Models
     public class SkillModel
     {
         public String SkillName { get; set; }
-        public int Level { get; set; }
+        
     }
 }

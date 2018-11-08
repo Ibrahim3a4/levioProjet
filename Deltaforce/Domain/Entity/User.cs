@@ -33,6 +33,7 @@ namespace Domain.Entity
         public int Id { get; set; }
 
     }
+
     public class CustomUserRole : IdentityUserRole<int>
     {
         public int Id { get; set; }

@@ -23,8 +23,14 @@ namespace Service
         }
 
 
+        public Skill  GetSkillById(int id)
+        {
+            return uof.getRepository<Skill>().GetById(id);
+        }
 
-        
+
+
+
 
     }
 }

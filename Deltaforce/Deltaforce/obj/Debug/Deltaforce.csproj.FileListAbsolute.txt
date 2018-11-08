@@ -52,6 +52,9 @@ C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\bin\Debug\Entity
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
+E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
+E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.pdb
@@ -74,6 +77,3 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\bin
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb
-E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\bin\Debug\Deltaforce.exe.config
-E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.exe
-E:\Workspace\ESPRIT\4BI3\PIDEV\TheProject\levioProjet\Deltaforce\Deltaforce\obj\Debug\Deltaforce.pdb

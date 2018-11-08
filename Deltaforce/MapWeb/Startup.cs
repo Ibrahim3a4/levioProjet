@@ -130,9 +130,6 @@ namespace MapWeb
 
 
 
-
-
-
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
@@ -143,6 +140,7 @@ namespace MapWeb
         // In this method we will create default User roles and Admin user for login
         private void createRolesandUsers()
         {
+            //LevioMapCtx context = new LevioMapCtx();
             ApplicationDbContext context = new ApplicationDbContext();
 
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
@@ -194,7 +192,6 @@ namespace MapWeb
 
             }
         }
-
 
     }
 

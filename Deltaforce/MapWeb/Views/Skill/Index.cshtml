@@ -1,8 +1,67 @@
-﻿
+﻿@model IEnumerable<Domain.Entity.Skill>
+
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_LayoutMap.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Index</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{
+    <table id="example2" class="table table-bordered table-hover">
+
+        <tr>
+            <td>
+                <div> Serach by name : @Html.TextBox("SearchString")    </div>
+            </td>
+
+            <td>
+                <input type="submit" value="Search" id="submit" />
+            </td>
+        </tr>
+    </table>
+}
+<table id="example2" class="table table-bordered table-hover" >
+    <tr>
+        <th>
+            Skill Name 
+        </th>
+        <th>
+            Gestion
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SkillName)
+        </td>
+        <td>
+            <button type="button" class="btn btn-block btn-success btn-lg">@Html.ActionLink("Edit", "Edit", new { id = item.SkillId })</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-block btn-warning btn-lg">@Html.ActionLink("Details", "Details", new { id = item.SkillId })</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-block btn-danger btn-lg">@Html.ActionLink("Delete", "Delete", new { id = item.SkillId })</button>
+        </td>
+        @*<td>
+
+             
+             
+            @Html.ActionLink("Delete", "Delete", new { id=item.SkillId })
+        </td>*@
+    </tr>
+}
+
+    
+
+</table>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
