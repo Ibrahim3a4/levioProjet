@@ -79,16 +79,16 @@ namespace MapWeb.Controllers
                     Salary = rm.Salary,
                     UserName = rm.UserName,
                     Email = rm.Email,
-                    EmailConfirmed = true,
-                    PasswordHash = rm.PasswordHash,
-                    SecurityStamp = rm.SecurityStamp,
+                    //EmailConfirmed = true,
+                    //PasswordHash = rm.PasswordHash,
+                    //SecurityStamp = rm.SecurityStamp,
                     PhoneNumber = rm.PhoneNumber,
-                    PhoneNumberConfirmed = true,
+                    //PhoneNumberConfirmed = true,
                     TwoFactorEnabled = true,
-                    LockoutEnabled = true,
+                    //LockoutEnabled = true,
                     LockoutEndDateUtc = rm.LockoutEndDateUtc,
-                    AccessFailedCount = rm.AccessFailedCount,
-                    InterMandateId = 2
+                    //AccessFailedCount = rm.AccessFailedCount,
+                    InterMandateId = rm.InterMandateId
 
 
 
