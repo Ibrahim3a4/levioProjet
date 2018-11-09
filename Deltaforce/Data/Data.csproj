@@ -66,9 +66,9 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201811080619287_lok2.cs" />
-    <Compile Include="Migrations\201811080619287_lok2.Designer.cs">
-      <DependentUpon>201811080619287_lok2.cs</DependentUpon>
+    <Compile Include="Migrations\201811091247176_Yolo25.cs" />
+    <Compile Include="Migrations\201811091247176_Yolo25.Designer.cs">
+      <DependentUpon>201811091247176_Yolo25.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,8 +84,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811080619287_lok2.resx">
-      <DependentUpon>201811080619287_lok2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811091247176_Yolo25.resx">
+      <DependentUpon>201811091247176_Yolo25.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

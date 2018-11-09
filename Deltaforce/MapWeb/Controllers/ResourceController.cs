@@ -46,6 +46,15 @@ namespace MapWeb.Controllers
         // GET: Resource/Create
         public ActionResult Create()
         {
+
+            //Resource d = new Resource();
+            //d. = sp.GetMany().Select(s => new SelectListItem
+            //{
+            //    Text = s.nomSpeciality,
+            //    Value = s.SpecialityId.ToString()
+
+            //});
+
             return View();
         }
 
@@ -79,6 +88,7 @@ namespace MapWeb.Controllers
                     LockoutEnabled = true,
                     LockoutEndDateUtc = rm.LockoutEndDateUtc,
                     AccessFailedCount = rm.AccessFailedCount,
+                    InterMandateId = 2
 
 
 
@@ -115,7 +125,7 @@ public ActionResult Edit(int id)
 
         // POST: Resource/Edit/5
         [HttpPost]
-        public ActionResult Edit([Bind(Include = "Id,LastName, FirstName,Gender,Seniority,BusinessProfile,Rating,CV,Photo,HiringDate,Salary,UserName,Email, PhoneNumber")] Resource rs)
+        public ActionResult Edit([Bind(Include = "Id,LastName, FirstName,Gender,Seniority,BusinessProfile,Rating,CV,Photo,HiringDate,Salary,UserName,Email, PhoneNumber,InterMandateId")] Resource rs)
         {
             if (ModelState.IsValid)
             {

@@ -31,8 +31,9 @@ namespace Domain.Entity
         public virtual ICollection<Holiday> Holidays  { get; set; }
 
         public virtual ICollection<Mandate> Mandates { get; set; }
-        //public int InterMandateId { get; set; }
-        //[ForeignKey("InterMandateId")]
-        //public InterMandate InterMandate { get; set; }
+        public int InterMandateId { get; set; }
+        [ForeignKey("InterMandateId")]
+        public InterMandate InterMandate { get; set; }
+        //public IEnumerable<SelectListItem> Intermandates { get; set; } model Resource
     }
 }

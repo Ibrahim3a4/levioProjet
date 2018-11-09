@@ -15,7 +15,7 @@ namespace Domain.Entity
         public int InterMandateId { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        //public virtual ICollection <Resource> Resources { get; set; }
+        public virtual ICollection<Resource> Resources { get; set; }
 
 
     }
