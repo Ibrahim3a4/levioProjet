@@ -9,12 +9,15 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-
+/// <summary>
+/// ////////-///////////
+/// </summary>
 namespace MapWeb.Controllers
 {
     public class SkillController : Controller
     {
         ServiceSkill ss = new ServiceSkill();
+
         LevioMapCtx db = new LevioMapCtx();
         
         // GET: Skill
