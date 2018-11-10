@@ -11,6 +11,7 @@ namespace Domain.Entity
 {
     public  class Resource : User
     {
+        
         public String Seniority { get; set; }
         public String BusinessProfile  { get; set; }
         public int Rating { get; set; }
@@ -20,8 +21,9 @@ namespace Domain.Entity
         public  AvailabilityState Availability { get; set; }
         public String Photo { get; set; }
 
+        
         [DataType(DataType.Date)]
-        public DateTime HiringDate { get; set; }
+        public DateTime? HiringDate { get; set; }
         public float Salary { get; set; }
 
         public virtual ICollection<SkillResource> SkillResource { get; set; }
@@ -34,6 +36,5 @@ namespace Domain.Entity
         public int InterMandateId { get; set; }
         [ForeignKey("InterMandateId")]
         public InterMandate InterMandate { get; set; }
-        //public IEnumerable<SelectListItem> Intermandates { get; set; } model Resource
     }
 }

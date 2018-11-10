@@ -15,9 +15,8 @@ namespace Domain.Entity
         public string Content { get; set; }
         public string Subject { get; set; }
         public bool Received { get; set; }
-        public int SenderId { get; set; }
-        [ForeignKey("SenderId")]
-        public User User { get; set; }
+      
+        public  User User { get; set; }
         public string Receiver { get; set; }
     
     }

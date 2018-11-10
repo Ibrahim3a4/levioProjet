@@ -21,11 +21,11 @@ namespace Domain.Entity
 
         [Key]
         [Column(Order = 1)]
-        public int IdResource { get; set; }
+        public String IdResource { get; set; }
         [ForeignKey("IdResource")]
         public Resource Resource { get; set; }
         [Key]
-        [Column(Order =2)]
+        [Column(Order = 2)]
         public int IdProject { get; set; }
         [ForeignKey("IdProject")]
         public Project Project { get; set; }

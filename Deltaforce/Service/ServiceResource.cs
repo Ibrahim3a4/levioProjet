@@ -42,15 +42,7 @@ namespace Service
 
 
 
-        public IEnumerable<Resource> GetDoctorsBySpeciality(InterMandate s)
-        {
-            //return GetMany(p => p.Category == c).OrderBy(p => p.Price) ; 
-            //ou bien
-            var req = from p in GetMany()
-                      where p.InterMandate == s
-                      select p;
-            return req;
-        }
+
 
 
 

@@ -29,7 +29,7 @@ namespace MapWeb.Controllers
 
 
         // GET: Resource/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(String id)
         {
             if (id == null)
             {
@@ -46,15 +46,6 @@ namespace MapWeb.Controllers
         // GET: Resource/Create
         public ActionResult Create()
         {
-
-            //Resource d = new Resource();
-            //d. = sp.GetMany().Select(s => new SelectListItem
-            //{
-            //    Text = s.nomSpeciality,
-            //    Value = s.SpecialityId.ToString()
-
-            //});
-
             return View();
         }
 
@@ -66,7 +57,6 @@ namespace MapWeb.Controllers
             {
                 Resource rc = new Resource
             {
-                    
                     LastName = rm.LastName,
                     FirstName = rm.FirstName,
                     Gender = rm.Gender,
@@ -108,7 +98,7 @@ namespace MapWeb.Controllers
 }
 
 // GET: Resource/Edit/5
-public ActionResult Edit(int id)
+public ActionResult Edit(String id)
         {
             if (id == null)
             {
@@ -131,6 +121,7 @@ public ActionResult Edit(int id)
             {
                 db.Entry(rs).State = EntityState.Modified;
                 db.SaveChanges();
+                sv.Commit();
                 return RedirectToAction("Index");
             }
 
@@ -138,7 +129,7 @@ public ActionResult Edit(int id)
         }
 
         // GET: Resource/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(String id)
         {
             if (id == null)
             {
@@ -155,7 +146,7 @@ public ActionResult Edit(int id)
 
         // POST: Resource/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, Resource rs)
+        public ActionResult Delete(String id, Resource rs)
         {
             try
             {

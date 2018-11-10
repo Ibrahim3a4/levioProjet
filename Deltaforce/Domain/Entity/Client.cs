@@ -10,7 +10,7 @@ namespace Domain.Entity
 {
    public class Client : User
     {
-
+       // public int idClient { get; set; }
         public ClientCategory Category { get; set; }
         public ClientType Type { get; set; }
         public String Logo { get; set; }

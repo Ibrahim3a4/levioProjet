@@ -14,12 +14,12 @@ namespace Domain.Entity
         [Key, Column(Order = 1)]
         public int SkillIdFK { get; set; }
         [ForeignKey("SkillIdFK")]
-        public Skill Skill { get; set; }
+        public  Skill Skill { get; set; }
 
         [Key, Column(Order = 2)]
-        public int ResourceIdFK{ get; set; }
+        public String ResourceIdFK { get; set; }
         [ForeignKey("ResourceIdFK")]
-        public Resource Resource { get; set; }
+        public  Resource Resource { get; set; }
 
 
         public int Level { get; set; }
