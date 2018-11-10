@@ -29,7 +29,7 @@ namespace MapWeb.Controllers
 
 
         // GET: Resource/Details/5
-        public ActionResult Details(String id)
+        public ActionResult Details(int id)
         {
             if (id == null)
             {
@@ -69,16 +69,15 @@ namespace MapWeb.Controllers
                     Salary = rm.Salary,
                     UserName = rm.UserName,
                     Email = rm.Email,
-                    //EmailConfirmed = true,
-                    //PasswordHash = rm.PasswordHash,
-                    //SecurityStamp = rm.SecurityStamp,
+                    EmailConfirmed = true,
+                    PasswordHash = rm.PasswordHash,
+                    SecurityStamp = rm.SecurityStamp,
                     PhoneNumber = rm.PhoneNumber,
-                    //PhoneNumberConfirmed = true,
+                    PhoneNumberConfirmed = true,
                     TwoFactorEnabled = true,
-                    //LockoutEnabled = true,
+                    LockoutEnabled = true,
                     LockoutEndDateUtc = rm.LockoutEndDateUtc,
-                    //AccessFailedCount = rm.AccessFailedCount,
-                    InterMandateId = rm.InterMandateId
+                    AccessFailedCount = rm.AccessFailedCount,
 
 
 
@@ -98,7 +97,7 @@ namespace MapWeb.Controllers
 }
 
 // GET: Resource/Edit/5
-public ActionResult Edit(String id)
+        public ActionResult Edit(int id)
         {
             if (id == null)
             {
@@ -115,13 +114,12 @@ public ActionResult Edit(String id)
 
         // POST: Resource/Edit/5
         [HttpPost]
-        public ActionResult Edit([Bind(Include = "Id,LastName, FirstName,Gender,Seniority,BusinessProfile,Rating,CV,Photo,HiringDate,Salary,UserName,Email, PhoneNumber,InterMandateId")] Resource rs)
+        public ActionResult Edit([Bind(Include = "Id,LastName, FirstName,Gender,Seniority,BusinessProfile,Rating,CV,Photo,HiringDate,Salary,UserName,Email, PhoneNumber")] Resource rs)
         {
             if (ModelState.IsValid)
             {
                 db.Entry(rs).State = EntityState.Modified;
                 db.SaveChanges();
-                sv.Commit();
                 return RedirectToAction("Index");
             }
 
@@ -129,7 +127,7 @@ public ActionResult Edit(String id)
         }
 
         // GET: Resource/Delete/5
-        public ActionResult Delete(String id)
+        public ActionResult Delete(int id)
         {
             if (id == null)
             {
@@ -146,12 +144,12 @@ public ActionResult Edit(String id)
 
         // POST: Resource/Delete/5
         [HttpPost]
-        public ActionResult Delete(String id, Resource rs)
+        public ActionResult Delete(int id, Resource rs)
         {
             try
             {
-                var req = sv.GetMany().Where(a => a.Id == id).FirstOrDefault();
-                sv.Delete(req);
+             //   var req = sv.GetMany().Where(a => a.Id == id).FirstOrDefault();
+               // sv.Delete(req);
                 sv.Commit();
 
                 return RedirectToAction("Index");

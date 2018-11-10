@@ -21,9 +21,10 @@ namespace Domain.Entity
         public  AvailabilityState Availability { get; set; }
         public String Photo { get; set; }
 
-        
+        [Column(TypeName = "datetime2")]
+
         [DataType(DataType.Date)]
-        public DateTime? HiringDate { get; set; }
+        public DateTime HiringDate { get; set; }
         public float Salary { get; set; }
 
         public virtual ICollection<SkillResource> SkillResource { get; set; }
@@ -33,8 +34,8 @@ namespace Domain.Entity
         public virtual ICollection<Holiday> Holidays  { get; set; }
 
         public virtual ICollection<Mandate> Mandates { get; set; }
-        public int InterMandateId { get; set; }
+        public int? InterMandateId { get; set; }
         [ForeignKey("InterMandateId")]
-        public InterMandate InterMandate { get; set; }
+         public InterMandate InterMandate { get; set; }
     }
 }

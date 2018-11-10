@@ -95,9 +95,9 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201811100329469_anas.cs" />
-    <Compile Include="Migrations\201811100329469_anas.Designer.cs">
-      <DependentUpon>201811100329469_anas.cs</DependentUpon>
+    <Compile Include="Migrations\201811101922291_last.cs" />
+    <Compile Include="Migrations\201811101922291_last.Designer.cs">
+      <DependentUpon>201811101922291_last.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,8 +113,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811100329469_anas.resx">
-      <DependentUpon>201811100329469_anas.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811101922291_last.resx">
+      <DependentUpon>201811101922291_last.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -28,12 +28,6 @@ D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.SqlServer.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.xml
-D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.SqlServer.xml
-D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\PI\levioProjet\Deltaforce\Domain\obj\Debug\Domain.dll
-D:\PI\levioProjet\Deltaforce\Domain\obj\Debug\Domain.pdb
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
@@ -41,36 +35,16 @@ D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Newtonsoft.Json.dll
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Owin.dll
+D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.xml
+D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 D:\PI\levioProjet\Deltaforce\Domain\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Domain.dll.config
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Domain.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Domain.pdb
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\EntityFramework.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Owin.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\EntityFramework.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\obj\Debug\Domain.dll
-C:\Users\Boubaker Ibrahim\Desktop\levio\levioProjet\deltos\Domain\obj\Debug\Domain.pdb
+D:\PI\levioProjet\Deltaforce\Domain\obj\Debug\Domain.dll
+D:\PI\levioProjet\Deltaforce\Domain\obj\Debug\Domain.pdb
+D:\PI\levioProjet\Deltaforce\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache

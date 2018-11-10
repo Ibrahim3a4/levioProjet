@@ -20,7 +20,7 @@ namespace Data
 
       
         //Constructeur 
-        public LevioMapCtx (): base("Name=MapLevio2")
+        public LevioMapCtx (): base("Name=MapLevio")
         {
             Database.SetInitializer(new ContexInit());
 
