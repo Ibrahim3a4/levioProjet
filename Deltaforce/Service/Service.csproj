@@ -90,12 +90,14 @@
     <Compile Include="Identity\ServiceUser.cs" />
     <Compile Include="IServiceClient.cs" />
     <Compile Include="IServiceMessage.cs" />
+    <Compile Include="IServiceProject.cs" />
     <Compile Include="IServiceResource.cs" />
     <Compile Include="IServiceSkill.cs" />
     <Compile Include="IServiceSKillResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceClient.cs" />
     <Compile Include="ServiceMessage.cs" />
+    <Compile Include="ServiceProject.cs" />
     <Compile Include="ServiceResource.cs" />
     <Compile Include="ServiceSkill.cs" />
     <Compile Include="ServiceSkillResource.cs" />

@@ -4,7 +4,7 @@
 <div>
     <h4>Client</h4>
     <hr />
-    <dl class="dl-horizontal">
+    <dl class="list-group-item">
         <dt>
             @Html.DisplayNameFor(model => model.LastName)
         </dt>
@@ -21,14 +21,7 @@
             @Html.DisplayFor(model => model.FirstName)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Gender)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Gender)
-        </dd>
-
+     
         <dt>
             @Html.DisplayNameFor(model => model.Email)
         </dt>
@@ -37,30 +30,7 @@
             @Html.DisplayFor(model => model.Email)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.EmailConfirmed)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.EmailConfirmed)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.PasswordHash)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.PasswordHash)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.SecurityStamp)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.SecurityStamp)
-        </dd>
-
+     
         <dt>
             @Html.DisplayNameFor(model => model.PhoneNumber)
         </dt>
@@ -69,46 +39,7 @@
             @Html.DisplayFor(model => model.PhoneNumber)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.PhoneNumberConfirmed)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TwoFactorEnabled)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TwoFactorEnabled)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LockoutEndDateUtc)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LockoutEndDateUtc)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LockoutEnabled)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LockoutEnabled)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AccessFailedCount)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AccessFailedCount)
-        </dd>
-
+   
         <dt>
             @Html.DisplayNameFor(model => model.UserName)
         </dt>
@@ -179,7 +110,7 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="button" class="btn btn-primary"  data-toggle="modal" data-target="#myModal2"/> 
+            <input type="button" class="btn btn-danger" value="Delete" data-toggle="modal" data-target="#myModal2"/> 
             <div class="modal fade modal-mini modal-primary" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">

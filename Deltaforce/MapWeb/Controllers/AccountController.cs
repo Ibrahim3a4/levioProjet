@@ -166,10 +166,11 @@ namespace MapWeb.Contollers
                     // Ressource Account type selected:
                     case EAccountType.Ressource:
                         {
-                            Resource ngo = new Resource { UserName = model.Email, Email = model.Email, FirstName = model.FirstName };
+                            Resource ngo = new Resource { UserName = model.Email, Email = model.Email, FirstName = model.FirstName/*, InterMandateId = 1 */};
                             result = await UserManager.CreateAsync(ngo, model.Password);
                             ngo.EmailConfirmed = true;
-                            ngo.SecurityStamp = null;
+
+                            //ngo.SecurityStamp = null;
                             // Add Ngo role to the new User
                             if (result.Succeeded)
                             {

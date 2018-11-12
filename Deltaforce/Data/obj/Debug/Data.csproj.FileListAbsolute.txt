@@ -90,3 +90,34 @@ D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
 D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
 D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.last.resources
 D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.last.resources
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache

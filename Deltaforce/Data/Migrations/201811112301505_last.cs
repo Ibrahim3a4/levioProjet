@@ -3,7 +3,7 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class test : DbMigration
+    public partial class last : DbMigration
     {
         public override void Up()
         {
@@ -40,7 +40,7 @@ namespace Data.Migrations
                         Contract = c.Int(),
                         Availability = c.Int(),
                         Photo = c.String(),
-                        HiringDate = c.DateTime(),
+                        HiringDate = c.DateTime(precision: 7, storeType: "datetime2"),
                         Salary = c.Single(),
                         InterMandateId = c.Int(),
                         Discriminator = c.String(nullable: false, maxLength: 128),
@@ -95,8 +95,8 @@ namespace Data.Migrations
                     {
                         Project_id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
-                        StartDate = c.DateTime(nullable: false),
-                        EndDate = c.DateTime(nullable: false),
+                        StartDate = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
+                        EndDate = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                         Address = c.String(),
                         Type = c.Int(nullable: false),
                         TotalNbrRessources = c.Int(nullable: false),
@@ -112,21 +112,21 @@ namespace Data.Migrations
                 "dbo.Mandates",
                 c => new
                     {
-                        IdResource = c.String(nullable: false, maxLength: 128),
                         IdProject = c.Int(nullable: false),
                         MandateId = c.Int(nullable: false),
                         StartDate = c.DateTime(nullable: false),
                         EndDate = c.DateTime(nullable: false),
                         Fees = c.Single(nullable: false),
                         IdMandateHistory = c.Int(nullable: false),
+                        Resource_Id = c.String(maxLength: 128),
                     })
-                .PrimaryKey(t => new { t.IdResource, t.IdProject })
+                .PrimaryKey(t => t.IdProject)
                 .ForeignKey("dbo.MandateHistories", t => t.IdMandateHistory, cascadeDelete: true)
-                .ForeignKey("dbo.Projects", t => t.IdProject, cascadeDelete: true)
-                .ForeignKey("dbo.Users", t => t.IdResource, cascadeDelete: true)
-                .Index(t => t.IdResource)
+                .ForeignKey("dbo.Projects", t => t.IdProject)
+                .ForeignKey("dbo.Users", t => t.Resource_Id)
                 .Index(t => t.IdProject)
-                .Index(t => t.IdMandateHistory);
+                .Index(t => t.IdMandateHistory)
+                .Index(t => t.Resource_Id);
             
             CreateTable(
                 "dbo.MandateHistories",
@@ -255,7 +255,7 @@ namespace Data.Migrations
             DropForeignKey("dbo.Projects", "Client_Id", "dbo.Users");
             DropForeignKey("dbo.SkillResources", "SkillIdFK", "dbo.Skills");
             DropForeignKey("dbo.SkillResources", "ResourceIdFK", "dbo.Users");
-            DropForeignKey("dbo.Mandates", "IdResource", "dbo.Users");
+            DropForeignKey("dbo.Mandates", "Resource_Id", "dbo.Users");
             DropForeignKey("dbo.Users", "InterMandateId", "dbo.InterMandates");
             DropForeignKey("dbo.HolidayResources", "Resource_Id", "dbo.Users");
             DropForeignKey("dbo.HolidayResources", "Holiday_HolidayId", "dbo.Holidays");
@@ -270,9 +270,9 @@ namespace Data.Migrations
             DropIndex("dbo.Messages", new[] { "User_Id" });
             DropIndex("dbo.SkillResources", new[] { "ResourceIdFK" });
             DropIndex("dbo.SkillResources", new[] { "SkillIdFK" });
+            DropIndex("dbo.Mandates", new[] { "Resource_Id" });
             DropIndex("dbo.Mandates", new[] { "IdMandateHistory" });
             DropIndex("dbo.Mandates", new[] { "IdProject" });
-            DropIndex("dbo.Mandates", new[] { "IdResource" });
             DropIndex("dbo.Projects", new[] { "Client_Id" });
             DropIndex("dbo.IdentityUserRoles", new[] { "IdentityRole_Id" });
             DropIndex("dbo.IdentityUserRoles", new[] { "UserId" });

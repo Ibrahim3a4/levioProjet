@@ -22,15 +22,15 @@ namespace MapWeb.Controllers
         // GET: Client
         public ActionResult Index(string searchString)
         {
-            var students = from s in db.Client
+            var clients = from s in db.Client
                            select s;
             if (!String.IsNullOrEmpty(searchString))
             {
-                students = students.Where(s => s.LastName.Equals(searchString)
+                clients = clients.Where(s => s.LastName.Equals(searchString)
                                        || s.FirstName.Equals(searchString));
             }
             var res = sc.GetMany();
-            return View(students.ToList());
+            return View(clients.ToList());
         }
 
         // GET: Client/Details/5
