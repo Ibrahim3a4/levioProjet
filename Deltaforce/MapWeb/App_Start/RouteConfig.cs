@@ -18,6 +18,11 @@ namespace MapWeb
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+                name: "Ahla",
+                url: "{controller}/{action}/{Name}/{NumFois}"
+                //defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }

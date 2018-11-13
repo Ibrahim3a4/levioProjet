@@ -66,14 +66,6 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201811031954573_Second.cs" />
-    <Compile Include="Migrations\201811031954573_Second.Designer.cs">
-      <DependentUpon>201811031954573_Second.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811032309157_Third.cs" />
-    <Compile Include="Migrations\201811032309157_Third.Designer.cs">
-      <DependentUpon>201811032309157_Third.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -88,12 +80,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811031954573_Second.resx">
-      <DependentUpon>201811031954573_Second.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811032309157_Third.resx">
-      <DependentUpon>201811032309157_Third.cs</DependentUpon>
-    </EmbeddedResource>
+    <Folder Include="CustumConventions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -47,6 +47,7 @@ namespace Data
         public DbSet<Mandate> Mandat { get; set; }
         public DbSet<InterMandate> InterMandat { get; set; }
         public DbSet<MandateHistory> MandatHistory { get; set; }
+        public DbSet<Request>Request { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

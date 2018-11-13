@@ -21,3 +21,17 @@ C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\bin\Deb
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.dll
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.pdb
 C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Domain.dll.config
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Domain.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Domain.pdb
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\obj\Debug\Domain.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Domain\obj\Debug\Domain.pdb

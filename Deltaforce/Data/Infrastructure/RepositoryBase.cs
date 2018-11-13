@@ -26,7 +26,6 @@ namespace Data.Infrastructure
         {
             get { return dataContext = databaseFactory.DataContext; }
         }
-
         #region Synch Methods
         public virtual void Add(T entity)
         {
@@ -78,6 +77,8 @@ namespace Data.Infrastructure
             return dbset.Where(where).FirstOrDefault<T>();
         } 
         #endregion
+       
+        
 
    
       

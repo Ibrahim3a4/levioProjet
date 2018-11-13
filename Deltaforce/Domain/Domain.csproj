@@ -75,6 +75,7 @@
     <Compile Include="Entity\Holiday.cs" />
     <Compile Include="Entity\Project.cs" />
     <Compile Include="Entity\RecruitmentManager.cs" />
+    <Compile Include="Entity\Request.cs" />
     <Compile Include="Entity\Resource.cs" />
     <Compile Include="Entity\Skill.cs" />
     <Compile Include="Entity\User.cs" />
