@@ -1,15 +1,33 @@
-﻿using Microsoft.Owin;
+﻿using Data;
+using Domain.Entity;
+using MapWeb.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
 using Owin;
-
-[assembly: OwinStartupAttribute(typeof(MapWeb.Startup))]
-namespace MapWeb
+using static Service.Startup;
+[assembly: OwinStartupAttribute(typeof(WebUI.Startup))]
+namespace WebUI
 {
     public partial class Startup
     {
-
-        public void Configuration(IAppBuilder app)
+        public void ConfigurationA(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            // ConfigureAuth(app);
+
+            OwinInit(app);
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+                LoginPath = new PathString("/Account/Login")
+            });
+
         }
+
     }
+
+
 }
+

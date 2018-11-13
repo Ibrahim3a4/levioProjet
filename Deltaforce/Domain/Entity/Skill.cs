@@ -13,8 +13,8 @@ namespace Domain.Entity
         [Key]
         public int SkillId { get; set; }
         public String SkillName { get; set; }
-        public int Level { get; set; }
-        public virtual ICollection<Resource> Resources { get; set; }
+        //public int Level { get; set; }
+        public virtual ICollection<SkillResource> SkillResource { get; set; }
 
     }
 }
