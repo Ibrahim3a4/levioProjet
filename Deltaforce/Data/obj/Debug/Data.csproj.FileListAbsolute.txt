@@ -1,0 +1,143 @@
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\obj\Debug\Data.Migrations.FirstOne.resources
+C:\Users\Boubaker Ibrahim\documents\visual studio 2015\Projects\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.FirstOne.resources
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Messagemimi.resources
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.lastOne.resources
+C:\Users\admin\Documents\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.lok2.resources
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+C:\Users\Boubaker Ibrahim\Documents\GitHub\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.Third.resources
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+C:\Users\ASUS I7\Documents\GitHub\jdid\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+=======
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Owin.dll
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\PI\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.xml
+D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.last.resources
+D:\PI\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.dll.config
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Data.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Domain.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Owin.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Domain.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\bin\Debug\Newtonsoft.Json.xml
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.dll
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.pdb
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.Migrations.last.resources
+D:\PI\Nouveau dossier\levioProjet\Deltaforce\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+>>>>>>> 3899aaafde615c07ff80282d01b9fc3188fcdee7
