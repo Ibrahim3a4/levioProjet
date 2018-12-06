@@ -1,8 +1,0 @@
-%%
-(0|1)+ printf ("c'est un nombre binaire");
-.* printf ("ce n'est pas un nombre binaire");
-%% int yywrap(){return 1;}
-main()
-{ yylex(); } 
- 
- 
