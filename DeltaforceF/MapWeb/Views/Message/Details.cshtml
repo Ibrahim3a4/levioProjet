@@ -1,0 +1,67 @@
+﻿@model Domain.Entity.Message
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyTemplate.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Receiver)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Receiver)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Received)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Received)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sender)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MessageId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

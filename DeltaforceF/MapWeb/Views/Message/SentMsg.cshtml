@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Domain.Entity.Message>
+
+@{
+    ViewBag.Title = "SentMsg";
+    Layout = "~/Views/Shared/_MyTemplate.cshtml";
+}
+
+
+
+<div class="container">
+    <button class="btn btn-info" name="CREATE" onclick="location.href=' @Url.Action("create", "Message")'">
+        Compose new message
+    </button>
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Messages sent</h3>
+            <div class="table-responsive">
+
+                <table id="mytable" class="table table-bordred table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Receiver)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Subject)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Content)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.MessageDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Received)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Receiver)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Subject)
+                                </td>
+                                <td>
+                                    @item.Content.Substring(0, Math.Min(item.Content.Length, 100))<text>...</text>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MessageDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Received)
+                                </td>
+                                <td>
+                                    <button class="btn btn-info btn-icon btn-round" onclick="location.href=' @Url.Action("Details", "Message", new {  id = item.MessageId })'">
+
+                                        <i class="fa fa-eye"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-icon btn-round" onclick="location.href=' @Url.Action("Delete", "Message", new { id = item.MessageId })'">
+
+                                        <i class="fa fa-remove"></i>
+                                    </button>
+
+
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#link" aria-label="Previous">
+                            <span aria-hidden="true"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#link">1</a></li>
+                    <li class="page-item "><a class="page-link" href="#link">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#link">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#link" aria-label="Next">
+                            <span aria-hidden="true"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>

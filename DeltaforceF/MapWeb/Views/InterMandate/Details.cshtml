@@ -1,0 +1,45 @@
+﻿@model MapWeb.Models.InterMandateModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details of Intermandate</h2>
+
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Resources)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resources)
+        </dd>
+
+    </dl>
+</div>
+<p>
+   
+    <div>
+        <button type="button" class="btn bg-maroon margin">@Html.ActionLink("Back to List", "Index")</button>
+
+    </div>
+</p>

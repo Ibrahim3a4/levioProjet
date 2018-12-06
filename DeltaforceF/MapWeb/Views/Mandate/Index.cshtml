@@ -1,0 +1,82 @@
+﻿@model IEnumerable<MapWeb.Models.MandateModel>
+
+@{
+    ViewBag.Title = "index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of mandates</h2>
+<p>
+    @*@Html.ActionLink("Create a new mandate", "create")*@
+    <button type="button" class="btn bg-navy margin">
+      @Html.ActionLink("Create a new mandate", "create")
+    </button>
+</p>
+<table class="table table-hover">
+
+    <tr >
+        
+      
+       
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fees)
+        </th>
+        <th>
+             First Name
+        </th>
+        <th>
+            Last Name
+        </th>
+        <th>
+            Project Name
+        </th>
+        <th>
+            Disponibility
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fees) $
+            </td>
+        
+            <td>
+               @Html.DisplayFor(modelItem => item.Resource.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resource.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Project.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disponibility)
+            </td>
+        
+        <td>
+           
+            @Html.ActionLink("Details", "Details", new { id = item.MandateId },new { @class = "btn btn-block btn-success btn-sm" })
+            @Html.ActionLink("Update", "Edit", new { id = item.MandateId }, new { @class = "btn btn-block btn-warning btn-sm" })
+            @Html.ActionLink("Delete", "Delete", new { id = item.MandateId }, new { @class = "btn btn-block btn-danger btn-sm" })
+            @*@Html.ActionLink("Update", "Edit", new {  id=item.MandateId}) |
+            @Html.ActionLink("Details", "Details", new {  id=item.MandateId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MandateId })*@
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,124 @@
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll.config
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\ServicePattern.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Data.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Domain.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Data.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\bin\Debug\Domain.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\obj\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\ReverseEng\levioProjet\Deltaforce\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Boubaker Ibrahim\Desktop\Deltaforce (1)\Deltaforce\ServicePattern\obj\Debug\ServicePattern.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\ServicePattern.dll.config
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\ServicePattern.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Data.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Domain.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Data.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\bin\Debug\Domain.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\obj\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\Phase1\DeltaforceIntegrationDotNet\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Data.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Owin.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.pdb

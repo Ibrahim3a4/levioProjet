@@ -1,0 +1,70 @@
+﻿@model MapWeb.Models.MandateModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details of Mandate</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+       
+
+        
+       
+        <dt>
+            FirstName's Resource
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resource.FirstName)
+        </dd>
+        <dt>
+            LastName's Resource
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resource.LastName)
+        </dd>
+        <dt>
+            Project Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fees)
+        </dd>
+    </dl>
+</div>
+<p>
+    
+    <div>
+        <button type="button" class="btn bg-maroon margin">@Html.ActionLink("Back to List", "Index")</button>
+
+    </div>
+</p>

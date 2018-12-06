@@ -1,0 +1,109 @@
+﻿@model MapWeb.Models.MandateModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create a new mandate</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        
+            <div class="form-horizontal">
+
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Resource, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+
+                        @Html.DropDownListFor(model => model.IdResource, Model.Resources, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.IdResource)
+                    </div>
+                 </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IdProject, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                           @Html.DropDownListFor(model => model.IdProject ,Model.Projects)
+                        @Html.ValidationMessageFor(model => model.IdProject)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MandateId, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.MandateId, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.MandateId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control", } })
+                            @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+</div>
+                    @*<div class="form-group">
+                @Html.LabelFor(model => model.Fees, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Fees, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Fees, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+                    @*<div class="form-group">
+                @Html.LabelFor(model => model.IdMandateHistory, "IdMandateHistory", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("IdMandateHistory", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IdMandateHistory, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button type="submit" class="btn btn-info pull-left">Submit</button>
+                        </div>
+                        <hr />
+                        
+                    </div>
+              
+
+
+     }
+        
+
+
+
+    <div>
+        @Html.ActionLink("Back to List", "Index",null,new { @class = "btn bg-maroon margin" })
+
+    </div>
+
+<script>
+    var todat = new Date();
+    var day = todat.getDate();
+    var mois = todat.getMonth()+1;
+    document.getElementById("StartDate").setAttribute("min", 2018 + '-' + mois + '-' + day);
+
+    document.getElementById("StartDate").setAttribute("onchange", "minEndDate()");
+    function minEndDate() {
+
+        console.log(document.getElementById("StartDate").value);
+        document.getElementById("EndDate").setAttribute("min", document.getElementById("StartDate").value);
+    }
+
+</script>
