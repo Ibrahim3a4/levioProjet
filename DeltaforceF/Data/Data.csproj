@@ -96,13 +96,9 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201812022124503_hope.cs" />
-    <Compile Include="Migrations\201812022124503_hope.Designer.cs">
-      <DependentUpon>201812022124503_hope.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812061659368_sabrine.cs" />
-    <Compile Include="Migrations\201812061659368_sabrine.Designer.cs">
-      <DependentUpon>201812061659368_sabrine.cs</DependentUpon>
+    <Compile Include="Migrations\201812062105011_att.cs" />
+    <Compile Include="Migrations\201812062105011_att.Designer.cs">
+      <DependentUpon>201812062105011_att.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,11 +114,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812022124503_hope.resx">
-      <DependentUpon>201812022124503_hope.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812061659368_sabrine.resx">
-      <DependentUpon>201812061659368_sabrine.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812062105011_att.resx">
+      <DependentUpon>201812062105011_att.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

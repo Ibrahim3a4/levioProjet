@@ -3,7 +3,7 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class hope : DbMigration
+    public partial class att : DbMigration
     {
         public override void Up()
         {
@@ -44,10 +44,13 @@ namespace Data.Migrations
                         Salary = c.Single(),
                         InterMandateId = c.Int(),
                         Discriminator = c.String(nullable: false, maxLength: 128),
+                        InterMandate_InterMandateId = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.InterMandates", t => t.InterMandate_InterMandateId)
                 .ForeignKey("dbo.InterMandates", t => t.InterMandateId)
-                .Index(t => t.InterMandateId);
+                .Index(t => t.InterMandateId)
+                .Index(t => t.InterMandate_InterMandateId);
             
             CreateTable(
                 "dbo.IdentityUserClaims",
@@ -112,21 +115,22 @@ namespace Data.Migrations
                 "dbo.Mandates",
                 c => new
                     {
+                        IdResource = c.String(nullable: false, maxLength: 128),
                         IdProject = c.Int(nullable: false),
                         MandateId = c.Int(nullable: false),
                         StartDate = c.DateTime(nullable: false),
                         EndDate = c.DateTime(nullable: false),
-                        Fees = c.Single(nullable: false),
+                        Fees = c.Int(),
+                        Disponibility = c.String(),
                         IdMandateHistory = c.Int(nullable: false),
-                        Resource_Id = c.String(maxLength: 128),
                     })
-                .PrimaryKey(t => t.IdProject)
+                .PrimaryKey(t => new { t.IdResource, t.IdProject })
                 .ForeignKey("dbo.MandateHistories", t => t.IdMandateHistory, cascadeDelete: true)
-                .ForeignKey("dbo.Projects", t => t.IdProject)
-                .ForeignKey("dbo.Users", t => t.Resource_Id)
+                .ForeignKey("dbo.Projects", t => t.IdProject, cascadeDelete: true)
+                .ForeignKey("dbo.Users", t => t.IdResource, cascadeDelete: true)
+                .Index(t => t.IdResource)
                 .Index(t => t.IdProject)
-                .Index(t => t.IdMandateHistory)
-                .Index(t => t.Resource_Id);
+                .Index(t => t.IdMandateHistory);
             
             CreateTable(
                 "dbo.MandateHistories",
@@ -165,8 +169,11 @@ namespace Data.Migrations
                         InterMandateId = c.Int(nullable: false, identity: true),
                         StartDate = c.DateTime(nullable: false),
                         EndDate = c.DateTime(nullable: false),
+                        IdResource = c.String(maxLength: 128),
                     })
-                .PrimaryKey(t => t.InterMandateId);
+                .PrimaryKey(t => t.InterMandateId)
+                .ForeignKey("dbo.Users", t => t.IdResource)
+                .Index(t => t.IdResource);
             
             CreateTable(
                 "dbo.SkillResources",
@@ -281,8 +288,10 @@ namespace Data.Migrations
             DropForeignKey("dbo.Projects", "Client_Id", "dbo.Users");
             DropForeignKey("dbo.SkillResources", "SkillIdFK", "dbo.Skills");
             DropForeignKey("dbo.SkillResources", "ResourceIdFK", "dbo.Users");
-            DropForeignKey("dbo.Mandates", "Resource_Id", "dbo.Users");
+            DropForeignKey("dbo.Mandates", "IdResource", "dbo.Users");
             DropForeignKey("dbo.Users", "InterMandateId", "dbo.InterMandates");
+            DropForeignKey("dbo.Users", "InterMandate_InterMandateId", "dbo.InterMandates");
+            DropForeignKey("dbo.InterMandates", "IdResource", "dbo.Users");
             DropForeignKey("dbo.HolidayResources", "Resource_Id", "dbo.Users");
             DropForeignKey("dbo.HolidayResources", "Holiday_HolidayId", "dbo.Holidays");
             DropForeignKey("dbo.DayOffResources", "Resource_Id", "dbo.Users");
@@ -296,14 +305,16 @@ namespace Data.Migrations
             DropIndex("dbo.Messages", new[] { "MUser_Id" });
             DropIndex("dbo.SkillResources", new[] { "ResourceIdFK" });
             DropIndex("dbo.SkillResources", new[] { "SkillIdFK" });
-            DropIndex("dbo.Mandates", new[] { "Resource_Id" });
+            DropIndex("dbo.InterMandates", new[] { "IdResource" });
             DropIndex("dbo.Mandates", new[] { "IdMandateHistory" });
             DropIndex("dbo.Mandates", new[] { "IdProject" });
+            DropIndex("dbo.Mandates", new[] { "IdResource" });
             DropIndex("dbo.Projects", new[] { "Client_Id" });
             DropIndex("dbo.IdentityUserRoles", new[] { "IdentityRole_Id" });
             DropIndex("dbo.IdentityUserRoles", new[] { "UserId" });
             DropIndex("dbo.IdentityUserLogins", new[] { "User_Id" });
             DropIndex("dbo.IdentityUserClaims", new[] { "UserId" });
+            DropIndex("dbo.Users", new[] { "InterMandate_InterMandateId" });
             DropIndex("dbo.Users", new[] { "InterMandateId" });
             DropTable("dbo.HolidayResources");
             DropTable("dbo.DayOffResources");

@@ -122,3 +122,34 @@ C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\bin\Debug\Domain.pdb
 C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
 C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Users\Sabrine\Desktop\Deltaforce\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Data.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Owin.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.pdb
