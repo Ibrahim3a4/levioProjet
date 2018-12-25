@@ -153,3 +153,34 @@ C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\bin\Deb
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Users\Boubaker Ibrahim\Desktop\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.dll.config
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\ServicePattern.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Data.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Owin.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Domain.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Data.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\bin\Debug\Domain.pdb
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.dll
+E:\Workspace\ESPRIT\4BI3\PIDEV\DeltaForceIntegration\levioProjet\DeltaforceF\ServicePattern\obj\Debug\ServicePattern.pdb

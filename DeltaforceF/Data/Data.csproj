@@ -96,9 +96,9 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="LevioMapCtx.cs" />
-    <Compile Include="Migrations\201812062105011_att.cs" />
-    <Compile Include="Migrations\201812062105011_att.Designer.cs">
-      <DependentUpon>201812062105011_att.cs</DependentUpon>
+    <Compile Include="Migrations\201812242110410_reverseng.cs" />
+    <Compile Include="Migrations\201812242110410_reverseng.Designer.cs">
+      <DependentUpon>201812242110410_reverseng.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,8 +114,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812062105011_att.resx">
-      <DependentUpon>201812062105011_att.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812242110410_reverseng.resx">
+      <DependentUpon>201812242110410_reverseng.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

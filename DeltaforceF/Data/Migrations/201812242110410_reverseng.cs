@@ -3,7 +3,7 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class att : DbMigration
+    public partial class reverseng : DbMigration
     {
         public override void Up()
         {
@@ -37,6 +37,7 @@ namespace Data.Migrations
                         BusinessProfile = c.String(),
                         Rating = c.Int(),
                         CV = c.String(),
+                        Type1 = c.Int(),
                         Contract = c.Int(),
                         Availability = c.Int(),
                         Photo = c.String(),
@@ -195,8 +196,11 @@ namespace Data.Migrations
                     {
                         SkillId = c.Int(nullable: false, identity: true),
                         SkillName = c.String(),
+                        ResRequest_resreqId = c.Int(),
                     })
-                .PrimaryKey(t => t.SkillId);
+                .PrimaryKey(t => t.SkillId)
+                .ForeignKey("dbo.ResRequests", t => t.ResRequest_resreqId)
+                .Index(t => t.ResRequest_resreqId);
             
             CreateTable(
                 "dbo.Messages",
@@ -242,6 +246,32 @@ namespace Data.Migrations
                 .PrimaryKey(t => t.ResourceHistoryId);
             
             CreateTable(
+                "dbo.ResRequests",
+                c => new
+                    {
+                        resreqId = c.Int(nullable: false, identity: true),
+                        ressourceType = c.Int(nullable: false),
+                        yearsOfExperience = c.Int(nullable: false),
+                        diploma = c.String(),
+                        depositDate = c.DateTime(nullable: false),
+                        treatedDate = c.DateTime(nullable: false),
+                        startDateWork = c.DateTime(nullable: false),
+                        endDateWork = c.DateTime(nullable: false),
+                        cost = c.Single(nullable: false),
+                        ProjectIdFK = c.Int(),
+                        ClientIdFK = c.String(maxLength: 128),
+                        ResourceIdFK = c.String(maxLength: 128),
+                        treated = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.resreqId)
+                .ForeignKey("dbo.Users", t => t.ClientIdFK)
+                .ForeignKey("dbo.Projects", t => t.ProjectIdFK)
+                .ForeignKey("dbo.Users", t => t.ResourceIdFK)
+                .Index(t => t.ProjectIdFK)
+                .Index(t => t.ClientIdFK)
+                .Index(t => t.ResourceIdFK);
+            
+            CreateTable(
                 "dbo.IdentityRoles",
                 c => new
                     {
@@ -281,6 +311,10 @@ namespace Data.Migrations
         public override void Down()
         {
             DropForeignKey("dbo.IdentityUserRoles", "IdentityRole_Id", "dbo.IdentityRoles");
+            DropForeignKey("dbo.Skills", "ResRequest_resreqId", "dbo.ResRequests");
+            DropForeignKey("dbo.ResRequests", "ResourceIdFK", "dbo.Users");
+            DropForeignKey("dbo.ResRequests", "ProjectIdFK", "dbo.Projects");
+            DropForeignKey("dbo.ResRequests", "ClientIdFK", "dbo.Users");
             DropForeignKey("dbo.Messages", "MUser_Id", "dbo.Users");
             DropForeignKey("dbo.IdentityUserRoles", "UserId", "dbo.Users");
             DropForeignKey("dbo.IdentityUserLogins", "User_Id", "dbo.Users");
@@ -302,7 +336,11 @@ namespace Data.Migrations
             DropIndex("dbo.HolidayResources", new[] { "Holiday_HolidayId" });
             DropIndex("dbo.DayOffResources", new[] { "Resource_Id" });
             DropIndex("dbo.DayOffResources", new[] { "DayOff_DayoffId" });
+            DropIndex("dbo.ResRequests", new[] { "ResourceIdFK" });
+            DropIndex("dbo.ResRequests", new[] { "ClientIdFK" });
+            DropIndex("dbo.ResRequests", new[] { "ProjectIdFK" });
             DropIndex("dbo.Messages", new[] { "MUser_Id" });
+            DropIndex("dbo.Skills", new[] { "ResRequest_resreqId" });
             DropIndex("dbo.SkillResources", new[] { "ResourceIdFK" });
             DropIndex("dbo.SkillResources", new[] { "SkillIdFK" });
             DropIndex("dbo.InterMandates", new[] { "IdResource" });
@@ -319,6 +357,7 @@ namespace Data.Migrations
             DropTable("dbo.HolidayResources");
             DropTable("dbo.DayOffResources");
             DropTable("dbo.IdentityRoles");
+            DropTable("dbo.ResRequests");
             DropTable("dbo.ResourceHistories");
             DropTable("dbo.Requests");
             DropTable("dbo.Messages");

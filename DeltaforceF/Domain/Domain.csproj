@@ -106,6 +106,7 @@
     <Compile Include="Entity\Request.cs" />
     <Compile Include="Entity\Resource.cs" />
     <Compile Include="Entity\ResourceHistory.cs" />
+    <Compile Include="Entity\ResRequest.cs" />
     <Compile Include="Entity\Skill.cs" />
     <Compile Include="Entity\SkillResource.cs" />
     <Compile Include="Entity\User.cs" />

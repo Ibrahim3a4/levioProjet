@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entity
 {
+    public enum RessourceType
+    {
+        Employee,
+        Freelancer
+    }
     public  class Resource : User
     {
         
@@ -16,6 +21,8 @@ namespace Domain.Entity
         public String BusinessProfile  { get; set; }
         public int Rating { get; set; }
         public String CV { get; set; }
+
+        public RessourceType Type { get; set; }
 
         public ContractType Contract { get; set; }
         public  AvailabilityState Availability { get; set; }

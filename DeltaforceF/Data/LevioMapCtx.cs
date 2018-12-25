@@ -46,7 +46,7 @@ namespace Data
         public DbSet<InterMandate> InterMandat { get; set; }
         public DbSet<MandateHistory> MandatHistory { get; set; }
         public DbSet<Request>Request { get; set; }
-
+        public DbSet<ResRequest> ResRequest { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<IdentityUserLogin>().HasKey<string>(l => l.UserId);

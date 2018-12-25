@@ -7,13 +7,13 @@ namespace Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class att : IMigrationMetadata
+    public sealed partial class reverseng : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(att));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(reverseng));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812062105011_att"; }
+            get { return "201812242110410_reverseng"; }
         }
         
         string IMigrationMetadata.Source
