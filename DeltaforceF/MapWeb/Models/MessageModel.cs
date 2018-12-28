@@ -9,7 +9,8 @@ namespace MapWeb.Models
 {
     public class MessageModel
     {
-        public List<MessageType> Types { get; set; }
+       // public List<MessageType> Types { get; set; }
+        public MessageType Type { get; set; }
 
         [Required(ErrorMessage = "You forgot to enter the username of the receiver!")]
         public string Receiver { get; set; }
