@@ -1,0 +1,59 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      template="/template/template2.xhtml"
+      xmlns:p="http://primefaces.org/ui"> 
+	
+
+	<ui:define name="pageContent">
+	<center>
+		<h:form>
+			
+			 
+			<div class="form-group" style="width:50%">
+				<h:outputLabel value="LastName" style="color:noir" />	
+				<h:inputText value="#{addUserMB.user.lastName}" styleClass="form-control"></h:inputText>
+			</div>
+			
+			<div class="form-group" style="width:50%">
+				<h:outputLabel value="FirstName" style="color:noir" />	
+				<h:inputText value="#{addUserMB.user.firstName}" styleClass="form-control"></h:inputText>
+			 </div>
+				<div class="form-group" style="width:50%">
+				<h:outputLabel value="Email" style="color:noir" />	
+				<h:inputText value="#{addUserMB.user.email}" styleClass="form-control"></h:inputText>
+				</div>
+				<div class="form-group" style="width:50%">
+				<h:outputLabel value="Confirm Email" style="color:noir" />	
+				<h:inputText value="#{addUserMB.user.id}" styleClass="form-control">
+				
+				
+				</h:inputText>
+				</div>
+				<div class="form-group" style="width:50%">
+				<h:outputLabel value="personel infos" style="color:noir" />	
+				<h:inputText value="#{addUserMB.user.addresse}" styleClass="form-control"></h:inputText>
+				</div>
+			
+				<div class="form-group" style="width:50%">
+				<h:outputLabel value="password" style="color:noir"/>	
+				<h:inputSecret  value="#{addUserMB.user.passwordHash}" styleClass="form-control"></h:inputSecret>
+				</div>
+				<div class="form-group" style="width:50%">
+				   <h3 style="margin-top:0px">Basic Layout</h3>
+    <p:selectOneListbox id="basic" value="#{addUserMB.user.discriminator}">
+        <f:selectItem itemLabel="Client" itemValue="Client" />
+        <f:selectItem itemLabel="Ressource" itemValue="Ressource" />
+       
+    </p:selectOneListbox>
+				</div>
+				<center>
+				<h:commandButton action="#{addUserMB.doadd()}" value="register" styleClass="btn btn-primary" />
+				</center>  
+				
+			
+		</h:form>
+	</center>
+		</ui:define>
+</ui:composition>

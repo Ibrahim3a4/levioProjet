@@ -1,0 +1,67 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+     >
+ 
+ 
+    <link rel="stylesheet" href="../example/css/custom.css"/>
+
+
+
+<f:metadata>
+		<f:event listener="#{organigrameBean.init()}" type="preRenderView"></f:event>
+	</f:metadata>
+
+
+	<div class="content">
+  <h1>Organigramme</h1>
+  <figure class="org-chart cf">
+ 
+    <ul class="administration">
+      <li>					
+        <ul class="director">
+          <li>
+            <a href="#"><span>Levio</span></a>
+            <ul class="subdirector">
+              
+            </ul>
+               <ul class="departments cf">								
+              <li><a href="#"><span>Clients</span></a></li>
+              
+            <li class="department dep-a">
+             <ui:repeat value="#{organigrameBean.users}" var="item">								
+             <a href="#"><span>#{item.firstName} #{item.lastName}</span></a>
+             
+                <br></br>
+               <ui:repeat value="#{item.projects}" var="i">
+              <ul class="sections">
+              
+                  <li class="section"><a href="#"><span>#{i.name}</span></a></li>
+               
+               </ul>
+               
+               </ui:repeat>
+                 <br></br>
+                    <br></br>
+               </ui:repeat>
+            </li>
+          </ul>
+                
+          </li>
+        </ul>	
+      </li>
+    </ul>
+		
+  </figure>
+</div>
+ 
+
+
+    
+
+
+</ui:composition>

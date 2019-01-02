@@ -1,0 +1,43 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/template/template2.xhtml"> 
+
+
+
+
+<ui:define name="pageContent"> 
+
+<h:form>
+		
+		<h:dataTable value="#{projectDoneBean.ps}" var="u" styleClass="table table-striped projects" id="userList" >
+		
+			<p:column>
+				<f:facet name="header">Adress</f:facet>
+				<p:outputLabel value="#{u.address}"></p:outputLabel>
+			</p:column>
+			
+			<p:column>
+				<f:facet name="header">Name</f:facet>
+				<p:outputLabel value="#{u.name}"></p:outputLabel>
+			</p:column>
+			<p:column>
+				<f:facet name="header">Name</f:facet>
+				<p:outputLabel value="#{u.type}"></p:outputLabel>
+			</p:column>
+			
+			<p:column>
+				<f:facet name="header">Name</f:facet>
+				<p:outputLabel value="#{projectDoneBean.Rentable(u)}"></p:outputLabel>
+			</p:column>
+			
+		
+		</h:dataTable>
+		</h:form>
+<p:chart type="bar" model="#{projectDoneBean.lineModel2}" style="height:300px"/>
+</ui:define> 
+</ui:composition>

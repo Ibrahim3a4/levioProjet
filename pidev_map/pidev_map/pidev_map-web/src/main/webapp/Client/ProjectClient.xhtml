@@ -1,0 +1,57 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+
+
+  <f:metadata>
+		<f:event listener="#{clientBean.init(clientBean.user)}" type="preRenderView"></f:event>
+	</f:metadata>
+
+
+<ui:define name="content"> 
+<p:growl autoUpdate="true" showDetail="true" sticky="true" ></p:growl>
+<h:form>
+		
+		<h:dataTable value="#{clientBean.ps}" var="u" styleClass="table table-striped projects" id="userList" >
+		
+			<p:column>
+				<f:facet name="header">Adress</f:facet>
+				<p:outputLabel value="#{u.address}"></p:outputLabel>
+			</p:column>
+			
+			<p:column>
+				<f:facet name="header">Name</f:facet>
+				<p:outputLabel value="#{u.name}"></p:outputLabel>
+			</p:column>
+			<p:column>
+				<f:facet name="header">Start Date</f:facet>
+				<p:outputLabel value="#{clientBean.stringToDate(u.startDate)}" > </p:outputLabel>
+			</p:column>
+			<p:column>
+				<f:facet name="header">End date</f:facet>
+				<p:outputLabel value="#{clientBean.stringToDate(u.endDate)}"></p:outputLabel>
+			</p:column>
+		
+			<p:column>
+				<f:facet name="header">Remove</f:facet>
+				<p:commandButton update="@form" action="#{editUser.Delete(u)}" value="remove" styleClass="btn btn-danger"/>				
+				
+			</p:column>
+			<p:column>
+				<f:facet name="header">Edit</f:facet>
+				<h:commandButton action="#{editUser.load()}" value="edit" styleClass="btn btn-primary">
+					<f:setPropertyActionListener value="#{u}" target="#{editUser.u}"></f:setPropertyActionListener>
+				</h:commandButton>				
+				
+			</p:column>
+		
+		</h:dataTable>
+		</h:form>
+
+</ui:define> 
+</ui:composition>

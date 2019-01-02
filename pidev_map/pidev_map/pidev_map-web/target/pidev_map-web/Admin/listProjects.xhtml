@@ -1,0 +1,45 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+
+  <f:metadata>
+		<f:event listener="#{projectBean.init()}" type="preRenderView"></f:event>
+	</f:metadata>
+
+
+
+<ui:define name="content"> 
+
+	<section  class="cd-timeline js-cd-timeline">
+	<div class="cd-timeline__container">
+          <ui:repeat value="#{projectBean.ps}" var="s">
+			<div class="cd-timeline__block js-cd-block">
+				
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>#{s.name}</h2>
+					<h5>#{s.address}</h5>
+					<h5>#{s.type}</h5>
+					<h5>Number of ressources : #{s.totalNbrRessources}</h5>
+					<h5>Number of Levio : #{s.totalNbrLevio}</h5>
+				<p:commandButton action="#{projectBean.getById(s.project_id)}" value="More Info" styleClass="cd-timeline__read-more">
+                <f:setPropertyActionListener value="#{s}" target="#{projectBean.pe}"></f:setPropertyActionListener>
+                </p:commandButton>
+					<span class="cd-timeline__date">#{projectBean.stringToDate(s.startDate)}</span>
+				</div> <!-- cd-timeline__content -->
+			
+                </div> <!-- cd-timeline__block -->
+</ui:repeat>
+</div>
+</section>
+</ui:define> 
+
+</ui:composition>

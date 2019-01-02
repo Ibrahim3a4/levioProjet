@@ -1,0 +1,99 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+
+
+	<ui:define name="title">
+
+
+     <f:metadata>
+		<f:event listener="#{getUsersMB.init()}" type="preRenderView"></f:event>
+	</f:metadata>
+
+</ui:define>
+	
+
+
+<ui:define name="content"> 
+
+<p:growl autoUpdate="true" showDetail="true" sticky="true" ></p:growl>
+ <p:tabView orientation="left" >
+        <p:tab title="Clients">
+<h:form>
+		<section id="basic-examples">
+
+
+	<div class="row match-height">
+	<ui:repeat value="#{getUsersMB.users}" var="uz">
+		<div class="col-xl-3 col-md-4 col-sm-10">
+			
+			<div class="card" style="height: 350px;">
+				<div class="card-body">
+				<img src="../ressources/ressourceAdmin/images/#{uz.logo}"  class="card-img-top img-fluid" alt="Card image cap"></img>
+					
+					<div class="card-block">
+						<h4 class="card-title">#{uz.firstName} #{uz.lastName}
+                        #{uz.email}
+						</h4>
+						<p class="card-text">#{u.discriminator}</p>
+						<h:commandButton action="#{editUser.Delete(uz)}" value="remove" styleClass="btn btn-danger"></h:commandButton>	
+						<h:commandButton action="#{editUser.load()}" value="edit" styleClass="btn btn-primary">
+					<f:setPropertyActionListener value="#{uz}" target="#{editUser.u}"></f:setPropertyActionListener>
+				</h:commandButton>	
+                    <h:commandButton action="#{clientBean.init(uz)}" value="Projects" styleClass="btn btn-primary">
+					<f:setPropertyActionListener value="#{uz}" target="#{clientBean.user}"></f:setPropertyActionListener>
+				</h:commandButton>
+					</div>
+				</div>
+			</div>
+		 
+		</div>
+</ui:repeat>
+</div>
+</section>
+</h:form>
+</p:tab>
+
+        <p:tab title="Ressources">
+        <h:form>
+		<section id="basic-examples">
+
+
+	<div class="row match-height">
+	<ui:repeat value="#{getUsersMB.users2}" var="ua">
+		<div class="col-xl-3 col-md-4 col-sm-10">
+			
+			<div class="card" style="height: 350px;">
+				<div class="card-body">
+				<img src="../ressources/ressourceAdmin/images/#{ua.logo}"  class="card-img-top img-fluid" alt="Card image cap"></img>
+					
+					<div class="card-block">
+						<h4 class="card-title">#{ua.firstName} #{ua.lastName}
+                        #{ua.email}
+						</h4>
+						<p class="card-text">#{u.discriminator}</p>
+						<h:commandButton action="#{editUser.Delete(ua)}" value="remove" styleClass="btn btn-danger"></h:commandButton>	
+						<h:commandButton action="#{editUser.load()}" value="edit" styleClass="btn btn-primary">
+					<f:setPropertyActionListener value="#{ua}" target="#{editUser.u}"></f:setPropertyActionListener>
+				</h:commandButton>	
+                    <h:commandButton action="#{clientBean.init(ua)}" value="Projects" styleClass="btn btn-primary">
+					<f:setPropertyActionListener value="#{ua}" target="#{clientBean.user}"></f:setPropertyActionListener>
+				</h:commandButton>
+					</div>
+				</div>
+			</div>
+		 
+		</div>
+</ui:repeat>
+</div>
+</section>
+</h:form>
+</p:tab>
+</p:tabView>
+</ui:define> 
+</ui:composition>

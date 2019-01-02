@@ -1,0 +1,43 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+
+
+	<ui:define name="title">
+
+
+    
+
+</ui:define>
+	
+
+
+<ui:define name="content"> 
+<p:growl autoUpdate="true" showDetail="true" sticky="true" ></p:growl>
+<h:form>
+		<h:selectOneMenu value="#{projectBean.selectedUserId}" >
+			<f:selectItems value="#{projectBean.usss}" 
+				var="user" itemValue="#{user.id}" 
+				itemLabel="#{users}" />
+		       </h:selectOneMenu>
+                  
+			
+			<h:selectOneMenu value="#{projectBean.selectedProjectId}" >
+			<f:selectItems value="#{projectBean.allProjects}" 
+				var="project" itemValue="#{project.project_id}" 
+				itemLabel="#{projects}" />
+		       </h:selectOneMenu>
+			<h:commandButton id="btn" action="#{projectBean.affecterDeviceAEmploye()}" value="Affecter" >
+			
+			</h:commandButton>
+			
+	
+		</h:form>
+
+</ui:define> 
+</ui:composition>

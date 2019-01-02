@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="pidev_map">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="pidev_map"/>
+        <property name="java-output-path" value="/pidev_map/bin"/>
+    </wb-module>
+</project-modules>
