@@ -1,0 +1,26 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+      
+         <ui:define name="content">
+
+
+<h:head>Best Parrain</h:head> 
+<body> 
+ 	<h:outputText value="Congratulation You are the Best" />
+ 	<br />
+	<h:outputLabel value="#{parrainBean.BestParrain().nom}" for="acSimple" />
+	 	<br />
+	<h:outputText value="which id is " />
+	 	<br />
+	<h:outputLabel value="#{parrainBean.BestParrain().idParrain}" for="acSimple" />
+
+
+</body> 
+	</ui:define>
+</ui:composition>

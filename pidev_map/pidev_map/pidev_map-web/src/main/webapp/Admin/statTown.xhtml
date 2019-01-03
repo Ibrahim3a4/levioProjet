@@ -4,19 +4,32 @@
 	xmlns:h="http://xmlns.jcp.org/jsf/html"
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
 	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
-     template="/templateAdmin/templateAdmin.xhtml"
-      xmlns:p="http://primefaces.org/ui">
-        
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
 
 	<ui:define name="header">
+	<f:metadata>
+		<f:event listener="#{statBean.init()}" type="preRenderView"></f:event> <!-- Methode à exécuter au chargement de la page -->
+	</f:metadata>
 	
-
+	<link rel="stylesheet" href="../ressources/statistiques/morris.css"></link>
+	<script type="text/javascript" src="../ressources/statistiques/jquery.min.js"></script>
+	<script type="text/javascript" src="../ressources/statistiques/raphael-min.js"></script>
+	<script type="text/javascript" src="../ressources/statistiques/morris.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			Morris.Donut({
+				  element: 'myChart',
+				  data: [
+				    #{statBean.getPieData()}
+				  ]
+				});
+		})
+	</script>
 	</ui:define>
 
-	
 	<ui:define name="content">
-	sdfghjkl
-	<p:chart type="pie" model="#{pieChart.pieModel}" style="width:400px;height:300px" /> 
+	<div id="myChart" style="width:50%;height:50%"></div>
 	</ui:define>
 	</ui:composition>
 

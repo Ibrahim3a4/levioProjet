@@ -21,7 +21,6 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>6.2</version>
 		</dependency>
 		<dependency>
 			<groupId>tn.esprit</groupId>
@@ -34,47 +33,27 @@
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>2.0-m02</version>
 		</dependency>
+	
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-json -->
 		<dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20090211</version>
-    </dependency>
-    <dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.8.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.6.2</version>
-</dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+			<version>1.19.3</version>
+		</dependency>
 
-
-<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
-   <dependency>
-
-<groupId>com.lowagie</groupId>
-
-<artifactId>itext</artifactId>
-
-        <version>2.1.7</version>
-
-</dependency>
-<!-- https://mvnrepository.com/artifact/com.itextpdf/html2pdf -->
-<dependency>
-    <groupId>com.itextpdf</groupId>
-    <artifactId>html2pdf</artifactId>
-    <version>2.1.1</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.xhtmlrenderer/core-renderer -->
-<dependency>
-    <groupId>org.xhtmlrenderer</groupId>
-    <artifactId>core-renderer</artifactId>
-    <version>R8pre2</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.ws.rs/jsr311-api -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
 
 		
       

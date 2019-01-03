@@ -68,5 +68,12 @@ public class EditUser {
 		}
 		return "";
 	}
-
+	public String goTo(){
+		return "/AdminActivity?faces-redirect=true";
+	}
+	
+	public String GoTo(){
+		return "/RoommateGroup/Affichage?faces-redirect=true";
+	}
+	
 }

@@ -1,0 +1,38 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+      
+         <ui:define name="content">
+
+
+<h:head></h:head> 
+<h:body> 
+<h:form>
+	
+	 	
+	 	
+	 <h:selectOneMenu value="#{parrainBean.selectedParrain}">
+			<f:selectItems value="#{parrainBean.pss}" var="parrain" 
+			itemValue="#{parrain.idParrain}" 
+				itemLabel="#{parrain}" 
+			></f:selectItems>
+		</h:selectOneMenu>
+		<h:selectOneMenu value="#{parrainBean.selectedUser}">
+			<f:selectItems value="#{parrainBean.uss}" var="user" 
+			itemValue="#{user.id}" 
+				itemLabel="#{user}" 
+			></f:selectItems>
+		</h:selectOneMenu>
+		
+		<h:commandButton id="btn" action="#{parrainBean.affecterUserParrain()}" value="Affecter" />
+		
+</h:form>
+</h:body> 
+	</ui:define>
+</ui:composition>
+

@@ -1,0 +1,32 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+      
+         <ui:define name="content">
+
+
+<h:head>Add Parrain</h:head> 
+<body> 
+	<h:form>
+	<h:panelGrid columns="2">
+		<h:outputLabel value="idParrain" />
+		
+		<h:inputText value="#{parrainBean.parrain.idParrain}" />
+		
+		<h:outputLabel value="nomParrain" />
+		<h:inputText value="#{parrainBean.parrain.nom}" />
+		
+	<h:commandButton action="#{parrainBean.addParrain()}" value="Add Parrain"  />
+	
+	</h:panelGrid>
+
+	</h:form>
+
+</body> 
+	</ui:define>
+</ui:composition>

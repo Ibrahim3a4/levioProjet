@@ -22,7 +22,7 @@ import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-
+import Entities.Parrain;
 import Entities.Project;
 import Entities.User;
 import Interfaces.UserServiceLocal;
@@ -47,7 +47,7 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 		em.persist(user);
 		
 	}
-
+	
 	@Override
 	public void DeleteUser(User user) {
 		//em.remove(em.contains(user) ? user : em.merge(user));  remove simple sans consommation 
@@ -56,7 +56,7 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 		Client client;
 		WebTarget target;
 		@SuppressWarnings("unused")
-		String uri = "http://localhost:54331/Api/Delete/?id="+user.getId();
+		String uri = "http://localhost:45464/api/User/Delete/?id="+user.getId();
 		client = ClientBuilder.newClient();
 		target = client.target("http://localhost:45464/api/User/Delete/").queryParam("id", user.getId());
 		Response response = target.request().delete();
@@ -74,7 +74,8 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 		em.merge(user);
 		
 	}
-
+	
+	
 	@Override
 	public User findUserByLogin(String login, String password) {
 		User user = null;
@@ -91,16 +92,15 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 		return user;
 	}
 	
-	@SuppressWarnings("unchecked")
 	public Map<String,Long> getUsersByTown(){
 		Map<String, Long> result= new HashMap<String, Long>();
-		String jpql = "SELECT DISTINCT addresse from User";
+		String jpql = "SELECT DISTINCT adresse from User";
 		Query query = em.createQuery(jpql);
 		ArrayList<String> towns= (ArrayList<String>) query.getResultList();
 		Iterator<String> it = towns.iterator();
 		while (it.hasNext()){
 			String town= it.next();
-			String jpql2= "SELECT Count(*) from User u where u.addresse=:town";
+			String jpql2= "SELECT Count(*) from User u where u.adresse=:town";
 			Query q2 = em.createQuery(jpql2);
 			q2.setParameter("town", town);
 			result.put(town, (Long)q2.getSingleResult());
@@ -112,6 +112,11 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 	@Override
 	public List<User> getAll() {
 		return em.createQuery("SELECT u from User u").getResultList();
+	}
+	
+public List<User>getAllInter(){
+		Query q= em.createQuery("SELECT u from User u where u.addresse!='Canada' AND u.Parrain.idParrain IS NULL ");
+		return q.getResultList();
 	}
 
 	public static  List<Project> getAll2() {
@@ -127,66 +132,26 @@ public class UserService implements UserServiceLocal,UserServiceRemote{
 		Query query= em.createQuery("SELECT u FROM User u order by activitytime desc").setMaxResults(5);
 		return query.getResultList();
 	}
+	
+	 public void deleteUserFromParrain(User u){
+		 	Parrain p=null;
+		    u.setParrain(null);
+		    int i =u.getParrain().getIdParrain();
+		    Query query=em.createQuery("Select p from Parrain where idParrain=i");
+		    p= (Parrain) query.getSingleResult();
+		    int nb =p.getNbUsers();
+		   p.setNbUsers(nb-1);  
+		   }
+	 
+		   
+		    		
+	   public void deleteUserInter(String id){
+		   Query query=em.createQuery("delete from User s where s.id='"+id+"'");
+		 
+		   query.executeUpdate();
+	   }
 
-	@Override
-	public List<User> getUsersByIdProjet(int id) {
-		List<User >users = null;
-		String jpql = "SELECT u FROM User u WHERE u.projects=:param1 ";
-		Query query = em.createQuery(jpql);
-		query.setParameter("param1", id);
 		
-		try {
-			users =  query.getResultList();
-		} catch (Exception e) {
-			System.err.println("user not found");
-		}
-
-		return users;
-	}
-	@Override
-	public List<User> getClients() {
-		
-	   String id="Client";
-		List<User >users = null;
-		String jpql = "SELECT u FROM User u WHERE u.discriminator=:param1 ";
-		Query query = em.createQuery(jpql);
-		query.setParameter("param1", id);
-		
-		try {
-			users =  query.getResultList();
-		} catch (Exception e) {
-			System.err.println("user not found");
-		}
-
-		return users;
-	}
-
-	@Override
-	public List<User> getRessources() {
-		
-	   String id="Ressource";
-		List<User >users = null;
-		String jpql = "SELECT u FROM User u WHERE u.discriminator=:param1 ";
-		Query query = em.createQuery(jpql);
-		query.setParameter("param1", id);
-		
-		try {
-			users =  query.getResultList();
-		} catch (Exception e) {
-			System.err.println("user not found");
-		}
-
-		return users;
-	}
-	@Override
-	public void affecterUseraProject(String deviceUniqueIdentifier, int employeeMatricule) {
-		User deviceManagedEntity = em.find(User.class, deviceUniqueIdentifier);
-		Project employeeManagedEntity = em.find(Project.class, employeeMatricule);
-		System.out.println(employeeManagedEntity);
-		
-		deviceManagedEntity.setProject(employeeManagedEntity);
-	}
-
-}
 	
 	
+	}

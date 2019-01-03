@@ -22,7 +22,7 @@ public class Mandate implements Serializable {
 	private  String disponibility;
 
 	@Column(name="EndDate")
-	private Timestamp  endDate;
+	private Timestamp endDate;
 
 	@Column(name="Fees")
 	private int fees;
@@ -31,7 +31,7 @@ public class Mandate implements Serializable {
 	private int mandateId;
 
 	@Column(name="StartDate")
-	private Timestamp  startDate;
+	private Timestamp startDate;
 
 	//bi-directional many-to-one association to MandateHistory
 	@ManyToOne
@@ -67,11 +67,11 @@ public class Mandate implements Serializable {
 		this.disponibility = disponibility;
 	}
 
-	public Timestamp  getEndDate() {
+	public Timestamp getEndDate() {
 		return this.endDate;
 	}
 
-	public void setEndDate(Timestamp  endDate) {
+	public void setEndDate(Timestamp endDate) {
 		this.endDate = endDate;
 	}
 
@@ -91,11 +91,11 @@ public class Mandate implements Serializable {
 		this.mandateId = mandateId;
 	}
 
-	public Timestamp  getStartDate() {
+	public Timestamp getStartDate() {
 		return this.startDate;
 	}
 
-	public void setStartDate(Timestamp  startDate) {
+	public void setStartDate(Timestamp startDate) {
 		this.startDate = startDate;
 	}
 
@@ -122,20 +122,5 @@ public class Mandate implements Serializable {
 	public void setUser(User user) {
 		this.user = user;
 	}
-
-	public Mandate(MandatePK id, Timestamp  endDate, int fees, int mandateId,Timestamp startDate, Project project, User user) {
-		super();
-		this.id=id;
-		this.endDate = endDate;
-		this.fees = fees;
-	
-		this.mandateId = mandateId;
-		this.startDate = startDate;
-		this.project = project;
-		this.user = user;
-	}
-
-
-	
 
 }

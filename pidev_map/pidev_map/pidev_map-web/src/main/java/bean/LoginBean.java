@@ -9,12 +9,6 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 import Entities.User;
 import Interfaces.UserServiceLocal;
@@ -50,7 +44,7 @@ public class LoginBean {
 		FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
 		return "/login?faces-redirect=true";
 	}
-	
+
 	// Recall services
 	public String doLogin() {
 		String navaigateTo = "";
@@ -60,11 +54,13 @@ public class LoginBean {
 			identifidUser = true;
 			if (userLoggedIn.getEmail().equals("Admin@Admin.com")) {
 				loggedInAsAdmin = true;
-				navaigateTo = "/Admin/TimeLineProject?faces-redirect=true";
-			} else {
+				navaigateTo = "/Parrain/BestParrain.jsf?faces-redirect=true"; 
+			} else if(userLoggedIn.getDiscriminator().equals("Client")) {
 				loggedInAsAdmin = true;
-			
-				navaigateTo = "/Admin/statTown?faces-redirect=true";
+				navaigateTo = "/Parrain/listProjects?faces-redirect=true";
+			} else if(userLoggedIn.getDiscriminator().equals("Ressource")) {
+				loggedInAsAdmin = true;
+				navaigateTo = "/Parrain/ListRequest?faces-redirect=true";
 			}
 		} else {
 			FacesContext ctx = FacesContext.getCurrentInstance();

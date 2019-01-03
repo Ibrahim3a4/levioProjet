@@ -1,23 +1,26 @@
 package bean;
 
-
-
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
 
+import Entities.User;
 import Interfaces.UserServiceLocal;
+
 @ManagedBean
-@SessionScoped
+@ViewScoped
 public class StatBean {
 	public Map<String, Long> m;
-
+	private List<User> mostActiveUsers;
 	@EJB
 	UserServiceLocal service;
 	public Map<String, Long> getM() {
@@ -30,6 +33,9 @@ public class StatBean {
 	
 	public void init(){
 		m = service.getUsersByTown();
+	}
+	public void loadMostActiveUsers(){
+		mostActiveUsers= service.getMostActiveUsers();
 	}
 	public String getPieData(){
 		Set<Entry<String, Long>> set = m.entrySet();
@@ -44,6 +50,14 @@ public class StatBean {
 			}
 		}
 		return data;
+	}
+
+	public List<User> getMostActiveUsers() {
+		return mostActiveUsers;
+	}
+
+	public void setMostActiveUsers(List<User> mostActiveUsers) {
+		this.mostActiveUsers = mostActiveUsers;
 	}
 	
 	public String getDate(Long millis){

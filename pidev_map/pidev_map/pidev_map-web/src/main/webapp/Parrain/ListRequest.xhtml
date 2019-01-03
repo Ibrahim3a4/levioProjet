@@ -1,0 +1,27 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+      
+         <ui:define name="content">
+
+
+<h:head></h:head> 
+<body> 
+	<h:form>
+		<p:dataTable var="m" value="#{requestBean.requestet}">
+		<p:column headerText="id Request"> <h:outputText value="#{m.idRequest}" /> </p:column>
+		<p:column headerText="Profil Required"> <h:outputText value="#{m.profileRequired}" /> </p:column>
+		<p:column headerText="Carrer"> <h:outputText value="#{m.career}" /> </p:column>
+		<p:column headerText="Deposit Date"> <h:outputText value="#{m.depositDate}" /> </p:column>
+		<p:column headerText="Start date"> <h:outputText value="#{m.startDate}" /> </p:column>
+		<p:column headerText="End data"> <h:outputText value="#{m.endDate}" /> </p:column>
+		</p:dataTable>
+	</h:form>
+</body> 
+	</ui:define>
+</ui:composition>

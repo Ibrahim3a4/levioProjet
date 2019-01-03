@@ -1,6 +1,8 @@
 package Entities;
 
 import java.io.Serializable;
+import java.util.Date;
+
 import javax.persistence.*;
 
 
@@ -52,6 +54,8 @@ public class Request implements Serializable {
 	public String getDepositDate() {
 		return this.depositDate;
 	}
+
+
 
 	public void setDepositDate(String depositDate) {
 		this.depositDate = depositDate;

@@ -17,9 +17,6 @@ public interface UserServiceLocal {
     
 	public List<User> getMostActiveUsers();
 	public List<User> getAll();
-	public List<User> getUsersByIdProjet(int id);
-	public List<User> getClients();
-	public List<User> getRessources();
-	public void affecterUseraProject(String deviceUniqueIdentifier, int employeeMatricule);
-	
+	public void deleteUserInter(String id);
+	 public List<User>getAllInter();
 }

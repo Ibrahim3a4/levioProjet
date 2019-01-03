@@ -1,3 +1,5 @@
+
+
 <ui:composition xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:jsf="http://xmlns.jcp.org/jsf"
 	xmlns:f="http://xmlns.jcp.org/jsf/core"
@@ -20,9 +22,11 @@
 				<h:outputLabel value="Email" />	
 				<h:inputText value="#{editUser.u.email}" styleClass="form-control"></h:inputText>
 		
-				<h:outputLabel value="Adresse" />	
-				<h:inputText value="#{editUser.u.addresse}" styleClass="form-control"></h:inputText>
+				<h:outputLabel value="personel infos" />	
+				<h:inputText value="#{editUser.u.nbProjAf}" styleClass="form-control"></h:inputText>
 				
+				<h:outputLabel value="profession" />	
+				<h:inputText value="#{editUser.u.salary}" styleClass="form-control"></h:inputText>
 				
 				<h:commandButton action="#{editUser.UpdateAdmin}" value="confirm" styleClass="btn btn-primary">
 					

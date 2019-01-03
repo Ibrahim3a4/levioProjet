@@ -1,5 +1,6 @@
 package bean;
 
+import java.util.List;
 import java.util.Map;
 
 import javax.annotation.PostConstruct;
@@ -7,15 +8,12 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import javax.persistence.Query;
 
+import Entities.Parrain;
 import Entities.User;
 import Interfaces.UserServiceLocal;
+import Service.ParrainServiceLocal;
 
 
 @ManagedBean
@@ -23,10 +21,14 @@ import Interfaces.UserServiceLocal;
 public class AddUserMB {
 	@EJB
 	private UserServiceLocal service;
-	
 	private User user = new User() ; 
-	private String pass;
 	
+    @EJB
+    ParrainServiceLocal se;
+	public List<User> users;
+    public List<Parrain> ps ;
+	
+
 	public User getUser() {
 		return user;
 	}
@@ -34,18 +36,47 @@ public class AddUserMB {
 	public void setUser(User user) {
 		this.user = user;
 	}
+  public List<User> displayAllUsersInter(){
+	  users=service.getAllInter();
+	  return users;
+  }
 	
-	
-	public String getPass() {
-		return pass;
+	public UserServiceLocal getService() {
+		return service;
 	}
 
-	public void setPass(String pass) {
-		this.pass = pass;
+	public void setService(UserServiceLocal service) {
+		this.service = service;
 	}
 
-	public void doadd() {
-		service.AddUser(user);
+	public ParrainServiceLocal getSe() {
+		return se;
+	}
+
+	public void setSe(ParrainServiceLocal se) {
+		this.se = se;
+	}
+
+	public List<User> getUsers() {
+		return users;
+	}
+
+	public void setUsers(List<User> users) {
+		this.users = users;
+	}
+
+	public List<Parrain> getPs() {
+		return ps;
+	}
+
+	public void setPs(List<Parrain> ps) {
+		this.ps = ps;
+	}
+
+	public String doadd() {
+		
+		service.AddUser(user); 
+		return "login.xhtml?faces-redirect=true";
 	}
 
 	
@@ -59,21 +90,11 @@ public class AddUserMB {
 		
 	}
 	
-
 	
-
-	public String Register(User user) {
-
-		Client client = ClientBuilder.newClient();
-		WebTarget target = client.target("http://localhost:54331/api/Register");
-
-		Response reponse = target.request().post(Entity.entity(user, MediaType.APPLICATION_JSON));
-		String result = reponse.readEntity(String.class);
-		System.out.println(result);
-		reponse.close();
-		return result;
+	public String removeUserInter(User u){
+		service.deleteUserInter(u.getId());
+		return "";
 	}
+	
 
-	
-	
 }

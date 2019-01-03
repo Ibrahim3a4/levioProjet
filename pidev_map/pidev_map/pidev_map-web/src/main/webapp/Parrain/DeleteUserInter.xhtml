@@ -1,0 +1,65 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      template="/templateAdmin/templateAdmin.xhtml"> 
+      
+         <ui:define name="content">
+
+
+<h:head></h:head> 
+<body> 
+	<p:dataTable  value="#{addUserMB.displayAllUsersInter()}" var="rvw"  border="1">
+   
+    <p:column>
+    
+    <f:facet  name ="header" >First Name</f:facet>
+        <h:outputText value="#{rvw.firstName}" ></h:outputText>
+   
+   </p:column>
+   
+    
+   <p:column>
+    
+    <f:facet  name ="header" >Last Name</f:facet>
+        <h:outputText value="#{rvw.lastName}" ></h:outputText>
+   
+   </p:column>
+   
+   
+   <p:column>
+    
+    <f:facet  name ="header" >Adresse </f:facet>
+        <h:outputText value="#{rvw.addresse}" ></h:outputText>
+   
+   </p:column>
+   
+   <p:column>
+    
+    <f:facet  name ="header" >Type of user</f:facet>
+        <h:outputText value="#{rvw.discriminator}" ></h:outputText>
+   
+   </p:column>
+    
+ 
+  <!--  onclick="return confirm ('Are you sure')" -->
+ 
+   <!--  <h:commandButton action="#{userBean.removeUser(user.idUser)}" value="Modifier"  />  -->
+       <p:column>
+    <f:facet  name ="header" ><h:outputText value="" /></f:facet>
+       <h:form>
+    <p:commandButton onclick="return confirm ('Voulez vous supprimer votre avis')" action="#{addUserMB.removeUserInter(rvw)}" value="Supprimer" />
+</h:form>
+   </p:column>
+   
+
+   
+    </p:dataTable>
+   
+</body> 
+	</ui:define>
+</ui:composition>
+

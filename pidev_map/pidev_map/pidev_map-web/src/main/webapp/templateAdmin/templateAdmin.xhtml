@@ -7,9 +7,10 @@
 	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"> 
 
 <h:head>
-	<f:metadata>
+<f:metadata>
 		<f:event listener="#{loginBean.checkAdmin()}" type="preRenderView"></f:event>
 	</f:metadata>
+	
   <meta  content="utf-8"></meta>
 
 
@@ -19,7 +20,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
 <meta content="yes" name="apple-mobile-web-app-capable"></meta>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
-
 
 <link rel="apple-touch-icon"  href="../ressources/ressourceAdmin/images/icons/apple-touch-icon-57x57.png"></link>
 <link rel="apple-touch-icon"  href="../ressources/ressourceAdmin/icons/apple-touch-icon-60x60.png"></link>
@@ -43,9 +43,6 @@
 
 
 
-    <link rel="stylesheet" href="../css/reset.css"></link>
-    <link rel="stylesheet" href="../css/demo.css"></link>
-    <link rel="stylesheet" href="../css/style.css"></link> 
   <!-- Font awesome -->
   <link rel="stylesheet" href="../ressources/ressourceAdmin/css/font-awesome.min.css"></link>
 
@@ -129,55 +126,52 @@
       <li class="treeview">
         <a href="#">
           <i class="fa fa-laptop"></i>
-          <span>UI Elements</span>
+          <span>Menu</span>
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="../Admin/listUsers.jsf" >
+            <a href="../Parrain/addParrain.jsf" >
               <i class="fa fa-th"></i>
-              <span>Manage Accounts</span>
+              <span>Add Parrain</span>
               
             </a>
           </li>
 
           <li>
-            <a href="../Admin/statTown.jsf" >
+            <a href="../Parrain/BestParrain.jsf" >
               <i class="fa fa-asterisk"></i>
-              Town Statics
+              Best Parrain
             </a>
           </li>
           <li>
-            <a href="../Admin/statActivityTime.jsf" >
+            <a href="../Parrain/DeleteUserInter.jsf" >
               <i class="fa fa-fonticons"></i>
-              Activity time report
+              Delete Parrain
             </a>
           </li>
           <li>
           
-            <a href="../RoommateGroup/AdminActivity.jsf" >
+           
+            	<a href="../Parrain/ListParrain.jsf">
               <i class="fa fa-hand-pointer-o"></i>
-            Activities
+            List Parrain
             </a>
           </li>
+          
           <li>
-            <a href="slider.html" >
+            <a href="../Parrain/ListRequest.jsf">
               <i class="fa fa-sliders"></i>
-              Sliders &amp; Toggles
+              List Of Request
             </a>
           </li>
           <li>
-            <a href="timeline.html" >
+            <a href="../Parrain/ListUsersP.jsf" >
               <i class="fa fa-clock-o"></i>
-              Timeline
+              Assign User to Parrain
             </a>
           </li>
-          <li>
-            <a href="modals.html" type="data-pjax">
-              <i class="fa fa-bullhorn"></i>
-              Modals
-            </a>
-          </li>
+          
         </ul>
       </li>
 
@@ -278,6 +272,7 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjmOKmkLPUWeJLc9P9L-H-ZynmHl16Lhs"></script>
 
+<script src="../ressources/ressourceAdmin/js/dashboard-page.min.js"></script>
 
       </div>
     </div>

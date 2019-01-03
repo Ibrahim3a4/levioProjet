@@ -5,7 +5,7 @@ import java.util.Map;
 
 import javax.ejb.Remote;
 
-
+import Entities.Project;
 import Entities.User;
 @Remote
 public interface UserServiceRemote {
@@ -19,8 +19,6 @@ public interface UserServiceRemote {
 	
 	public List<User> getMostActiveUsers();
 	List<User> getAll();
-	public List<User> getUsersByIdProjet(int id);
-	public List<User> getClients();
-	public List<User> getRessources();
-	public void affecterUseraProject(String deviceUniqueIdentifier, int employeeMatricule);
+	public void deleteUserInter(String id);
+	 public List<User>getAllInter();
 }

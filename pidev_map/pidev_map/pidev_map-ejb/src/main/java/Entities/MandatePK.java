@@ -14,7 +14,7 @@ public class MandatePK implements Serializable {
 
 	@Column(name="IdResource", insertable=false, updatable=false)
 	private String idResource;
-	
+
 	@Column(name="IdProject", insertable=false, updatable=false)
 	private int idProject;
 
@@ -25,7 +25,6 @@ public class MandatePK implements Serializable {
 	}
 	public void setIdResource(String idResource) {
 		this.idResource = idResource;
-		
 	}
 	public int getIdProject() {
 		return this.idProject;
@@ -55,15 +54,4 @@ public class MandatePK implements Serializable {
 		
 		return hash;
 	}
-	public MandatePK(String idResource,int idProjet) {
-		super();
-		this.idResource = idResource;
-		this.idProject=idProjet;
-		
-	}
-	@Override
-	public String toString() {
-		return "MandatePK [idResource=" + idResource + ", idProject=" + idProject + "]";
-	}
-	
 }

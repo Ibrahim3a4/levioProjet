@@ -15,7 +15,6 @@
 				<h:outputLabel value="LastName" style="color:noir" />	
 				<h:inputText value="#{addUserMB.user.lastName}" styleClass="form-control"></h:inputText>
 			</div>
-			
 			<div class="form-group" style="width:50%">
 				<h:outputLabel value="FirstName" style="color:noir" />	
 				<h:inputText value="#{addUserMB.user.firstName}" styleClass="form-control"></h:inputText>
@@ -45,6 +44,8 @@
     <p:selectOneListbox id="basic" value="#{addUserMB.user.discriminator}">
         <f:selectItem itemLabel="Client" itemValue="Client" />
         <f:selectItem itemLabel="Ressource" itemValue="Ressource" />
+        <f:selectItem itemLabel="Admin" itemValue="Admin" />
+        <f:selectItem itemLabel="Parrain" itemValue="Parrain" />
        
     </p:selectOneListbox>
 				</div>
